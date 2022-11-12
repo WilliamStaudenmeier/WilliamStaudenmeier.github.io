@@ -48,7 +48,7 @@ function createRainTrough() {
       x: random(0, w),
       y: random(0, h),
       length: Math.floor(random(1, 830)),
-      opacity: Math.random() * 0.2,
+      opacity: Math.random() * 0.9,
       xs: random(-2, 2),
       ys: random(10, 20)
     };
