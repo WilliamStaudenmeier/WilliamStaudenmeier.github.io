@@ -1,91 +1,70 @@
-html {
-  box-sizing: border-box;
-}
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+* {
   margin: 0;
   padding: 0;
 }
 
-html,
-body,
-canvas {
-  width: 100%;
-  height: 100%;
+:root {
+  --thunder-duration: 10s;
+  --thunder-delay: 5s;
 }
 
 body {
-  width: 100%;
-  height: 100%;
-  background-color: #222;
-  background-size: cover;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 0;
+  background-image: linear-gradient(to bottom, #030420, #000000 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
-body:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  display: block;
+
+hr.thunder {
+  border: unset;
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.1);
-  z-index: 1;
-  -webkit-animation: thunder-bg 6s infinite;
-          animation: thunder-bg 6s infinite;
+  width: 100vw;
+  height: 100vh;
+  animation-name: thunder;
+  animation-duration: var(--thunder-duration);
+  animation-timing-function: linear;
+  animation-delay: var(--thunder-delay);
+  animation-iteration-count: infinite;
 }
 
-canvas {
-  display: block;
+hr:not(.thunder) {
+  width: 50px;
+  border-color: transparent;
+  border-right-color: rgba(255, 255, 255, 0.7);
+  border-right-width: 50px;
   position: absolute;
-  top: 0;
-  left: 0;
+  bottom: 100%;
+  transform-origin: 100% 50%;
+  animation-name: rain;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
-#canvas3 {
-  z-index: 5;
+@keyframes rain {
+  from {
+    transform: rotate(105deg) translateX(0);
+  }
+  to {
+    transform: rotate(105deg) translateX(calc(100vh + 20px));
+  }
 }
 
-#canvas2 {
-  z-index: 10;
-}
-
-#canvas1 {
-  z-index: 100;
-}
-
-@-webkit-keyframes thunder-bg {
+@keyframes thunder {
   0% {
-    background-color: rgba(34, 34, 34, 0.9);
+    background-color: transparent;
   }
-  9% {
-    background-color: rgba(34, 34, 34, 0.9);
+  1% {
+    background-color: white;
   }
-  10% {
-    background-color: rgba(59, 59, 59, 0.3);
+  2% {
+    background-color: rgba(255, 255, 255, 0.8);
   }
-  10.5% {
-    background-color: rgba(34, 34, 34, 0.9);
+  8% {
+    background-color: transparent;
   }
-  80% {
-    background-color: rgba(34, 34, 34, 0.9);
-  }
-  82% {
-    background-color: rgba(59, 59, 59, 0.3);
-  }
-  83% {
-    background-color: rgba(34, 34, 34, 0.9);
-  }
-  83.5% {
-    background-color: rgba(59, 59, 59, 0.3);
-  }
-  100% {
-    background-color: rgba(34, 34, 34, 0.9);
-  }
-}%  
+
