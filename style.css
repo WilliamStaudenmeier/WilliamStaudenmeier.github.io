@@ -4,6 +4,19 @@
   padding: 0;
 }
 
+.text {
+  /* Browsers not below */
+  transform: rotate(-90deg);
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+}
+
 :root {
   --thunder-duration: 10s;
   --thunder-delay: 5s;
