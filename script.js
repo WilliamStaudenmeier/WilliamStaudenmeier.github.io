@@ -1,5 +1,5 @@
 let hrElement;
-let counter = 200;
+let counter = 150;
 for (let i = 0; i < counter; i++) {
   hrElement = document.createElement("HR");
   if (i == counter - 1) {
