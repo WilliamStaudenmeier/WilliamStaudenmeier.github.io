@@ -35,7 +35,7 @@ body {
 hr.thunder {
   border: unset;
   position: absolute;
-  width: 1000vw;
+  width: 150vw;
   height: 100vh;
   animation-name: thunder;
   animation-duration: var(--thunder-duration);
@@ -63,7 +63,7 @@ hr:not(.thunder) {
     transform: rotate(90deg) translateX(0);
   }
   to {
-    transform: rotate(110deg) translateX(calc(100vh + 20px));
+    transform: rotate(105deg) translateX(calc(100vh + 20px));
   }
 }
 
