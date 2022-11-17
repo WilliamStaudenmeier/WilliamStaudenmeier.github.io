@@ -33,6 +33,19 @@ body {
   overflow: hidden;
 }
 
+body--mobile {
+  background-image: linear-gradient(to bottom, #030420, #000000 70%);
+  background: url(totoro2.jpg);
+  display: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 hr.thunder {
   border: unset;
   position: absolute;
