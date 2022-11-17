@@ -45,7 +45,7 @@ hr.thunder {
 }
 
 hr:not(.thunder) {
-  width: 500px;
+  width: 50px;
   border-color: transparent;
   border-right-color: rgba(255, 255, 255, 0.7);
   border-right-width: 50px;
