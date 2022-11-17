@@ -35,7 +35,7 @@ body {
 hr.thunder {
   border: unset;
   position: absolute;
-  width: 150vw;
+  width: 110vw;
   height: 100vh;
   animation-name: thunder;
   animation-duration: var(--thunder-duration);
