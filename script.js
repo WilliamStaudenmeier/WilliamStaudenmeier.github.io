@@ -7,7 +7,7 @@ for (let i = 0; i < counter; i++) {
   } else {
     hrElement.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
     hrElement.style.animationDuration = 0.4 + Math.random() * 0.1 + "s";
-    hrElement.style.animationDelay = Math.random() * 5 + "s";
+    hrElement.style.animationDelay = Math.random() * 6 + "s";
   }
   document.body.appendChild(hrElement);
 }
