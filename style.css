@@ -35,8 +35,8 @@ body {
 hr.thunder {
   border: unset;
   position: absolute;
-  width: 100vw;
-  height: 100vh;
+  width: 1000vw;
+  height: 1000vh;
   animation-name: thunder;
   animation-duration: var(--thunder-duration);
   animation-timing-function: linear;
@@ -60,10 +60,10 @@ hr:not(.thunder) {
 
 @keyframes rain {
   from {
-    transform: rotate(105deg) translateX(0);
+    transform: rotate(90deg) translateX(0);
   }
   to {
-    transform: rotate(105deg) translateX(calc(100vh + 20px));
+    transform: rotate(110deg) translateX(calc(1000vh + 200px));
   }
 }
 
