@@ -98,3 +98,35 @@ hr:not(.thunder) {
     background-color: transparent;
   }
 
+@media only screen and (max-device-width: 480px) {
+
+body {
+  background-image: linear-gradient(to bottom, #030420, #000000 70%);
+  background: url(totoro3.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+  transform: rotate(90deg);
+
+}
+
+@keyframes rain {
+  from {
+    transform: rotate(105deg) translateX(0);
+  }
+  to {
+    transform: rotate(80deg) translateX(calc(100vh + 20px));
+  }
+   to {
+    transform: rotate(95deg) translateX(calc(100vh + 20px));
+  }
+}
+
+
+                                 }
+
