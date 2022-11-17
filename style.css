@@ -24,6 +24,7 @@
 
 body {
   background-image: linear-gradient(to bottom, #030420, #000000 70%);
+  background: url(totoro2.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
