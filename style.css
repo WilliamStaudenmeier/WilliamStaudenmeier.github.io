@@ -114,6 +114,18 @@ body {
   transform: rotate(90deg);
 
 }
+  
+hr.thunder {
+  border: unset;
+  position: absolute;
+  width: 150vw;
+  height: 100vh;
+  animation-name: thunder;
+  animation-duration: var(--thunder-duration);
+  animation-timing-function: linear;
+  animation-delay: var(--thunder-delay);
+  animation-iteration-count: infinite;
+}
 
 @keyframes rain {
   from {
