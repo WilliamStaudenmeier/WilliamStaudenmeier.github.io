@@ -4,19 +4,6 @@
   padding: 0;
 }
 
-.text {
-  /* Browsers not below */
-  transform: rotate(-90deg);
-  /* Safari */
-  -webkit-transform: rotate(-90deg);
-  /* Firefox */
-  -moz-transform: rotate(-90deg);
-  /* Opera */
-  -o-transform: rotate(-90deg);
-  /* IE */
-  -ms-transform: rotate(-90deg);
-}
-
 :root {
   --thunder-duration: 10s;
   --thunder-delay: 5s;
@@ -31,19 +18,6 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-}
-
-body--mobile {
-  background-image: linear-gradient(to bottom, #030420, #000000 70%);
-  background: url(totoro2.jpg);
-  display: column;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  min-width: 100%;
-  min-height: 100%;
 }
 
 hr.thunder {
