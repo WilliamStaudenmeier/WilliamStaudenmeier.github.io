@@ -98,7 +98,7 @@ hr:not(.thunder) {
     background-color: transparent;
   }
 
-@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
 
 body {
   background-image: linear-gradient(to bottom, #030420, #000000 70%);
