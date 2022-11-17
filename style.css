@@ -60,10 +60,13 @@ hr:not(.thunder) {
 
 @keyframes rain {
   from {
-    transform: rotate(90deg) translateX(0);
+    transform: rotate(105deg) translateX(0);
   }
   to {
-    transform: rotate(100deg) translateX(calc(100vh + 20px));
+    transform: rotate(85deg) translateX(calc(100vh + 20px));
+  }
+   to {
+    transform: rotate(90deg) translateX(calc(100vh + 20px));
   }
 }
 
