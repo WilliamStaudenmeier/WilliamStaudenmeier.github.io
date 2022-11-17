@@ -63,7 +63,7 @@ hr:not(.thunder) {
     transform: rotate(90deg) translateX(0);
   }
   to {
-    transform: rotate(110deg) translateX(calc(1000vh + 200px));
+    transform: rotate(110deg) translateX(calc(100vh + 20px));
   }
 }
 
