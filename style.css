@@ -64,7 +64,7 @@ hr:not(.thunder) {
     background-color: transparent;
   }
   1% {
-    background-color: black;
+    background-color: rain;
   }
   2% {
     background-color: rgba(255, 255, 255, 0.8);
