@@ -12,7 +12,7 @@
 body {
   #background-image: linear-gradient(to bottom, #030420, #000000 70%);
   background-color: black;
-  background: url(totoro_long.png);
+  background: url(totoro_short.png);
   display: flex;
   justify-content: center;
   align-items: center;
