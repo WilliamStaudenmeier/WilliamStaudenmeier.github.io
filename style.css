@@ -10,7 +10,8 @@
 }
 
 body {
-  background-image: linear-gradient(to bottom, #030420, #000000 70%);
+  #background-image: linear-gradient(to bottom, #030420, #000000 70%);
+  background-color: black;
   background: url(totoro_long.png);
   display: flex;
   justify-content: center;
@@ -35,7 +36,7 @@ hr.thunder {
 hr:not(.thunder) {
   width: 50px;
   border-color: transparent;
-  border-right-color: rgba(255, 255, 255, 0.7);
+  border-right-color: black;
   border-right-width: 50px;
   position: absolute;
   bottom: 100%;
@@ -63,7 +64,7 @@ hr:not(.thunder) {
     background-color: transparent;
   }
   1% {
-    background-color: white;
+    background-color: black;
   }
   2% {
     background-color: rgba(255, 255, 255, 0.8);
