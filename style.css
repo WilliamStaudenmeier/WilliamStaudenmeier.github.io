@@ -36,7 +36,7 @@ hr.thunder {
 hr:not(.thunder) {
   width: 50px;
   border-color: transparent;
-  border-right-color: black;
+  border-right-color: rgb(80,80,80);
   border-right-width: 50px;
   position: absolute;
   bottom: 100%;
@@ -64,7 +64,7 @@ hr:not(.thunder) {
     background-color: transparent;
   }
   1% {
-    background-color: rain;
+    background-color: black;
   }
   2% {
     background-color: rgba(255, 255, 255, 0.8);
