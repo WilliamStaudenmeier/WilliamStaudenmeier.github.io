@@ -14,7 +14,7 @@ function toggleText(element, texts, delay) {
 
 toggleText(document.querySelector(".js-dialog"), [
   {
-    text: '— Git...',
+    text: 'Git...',
     delay: 1.6
   },
   {
