@@ -1,6 +1,6 @@
-# WilliamStaudenmeier.github.io
+# Studio Ghibli-Themed Intro
 
-Studio Ghibli themed redirect to my GitHub portfolio.
+Web and Mobile friendly.
 
 GitHub pages doesn't recognize mobile transforms, so image-loading and absolute positioning doesn't translate well from web to mobile.
 
