@@ -22,3 +22,17 @@ toggleText(document.querySelector(".js-dialog"), [
     delay: 2.4
   }
 ], 2);
+
+let hrElement;
+let counter = 100;
+for (let i = 0; i < counter; i++) {
+  hrElement = document.createElement("HR");
+  if (i == counter - 1) {
+    hrElement.className = "thunder";
+  } else {
+    hrElement.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
+    hrElement.style.animationDuration = 3 + Math.random() * 0.1 + "s";
+    hrElement.style.animationDelay = Math.random() * 10 + "s";
+  }
+  document.body.appendChild(hrElement);
+}
