@@ -296,7 +296,7 @@ hr:not(.thunder) {
   width: 50px;
   border-color: transparent;
   #border-style: solid;
-  border-right-color: rgb(255, 255, 26);
+  border-right-color: rgb(255, 153, 51);
   border-right-width: 100px;
   opacity: .05;
   position: absolute;
