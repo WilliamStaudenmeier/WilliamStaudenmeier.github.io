@@ -291,3 +291,31 @@
   font-family: Arial;
   font-size: 1.2em;
 }
+
+hr:not(.thunder) {
+  width: 50px;
+  border-color: transparent;
+  #border-style: solid;
+  border-right-color: rgb(255, 255, 26);
+  border-right-width: 100px;
+  opacity: .05;
+  position: absolute;
+  bottom: 100%;
+  transform-origin: 100% 50%;
+  animation-name: rain;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 10;
+}
+
+@keyframes rain {
+  from {
+    transform: rotate(95deg) translateX(0);
+  }
+  to {
+    transform: rotate(50deg) translateX(calc(100vh + 20px));
+  }
+   to {
+    transform: rotate(95deg) translateX(calc(100vh + 20px));
+  }
+}
