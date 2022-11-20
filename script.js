@@ -36,3 +36,27 @@ for (let i = 0; i < counter; i++) {
   }
   document.body.appendChild(hrElement);
 }
+
+number = 40
+function bubble() {
+  var b = document.createElement('div')
+  var size = (Math.random()*100) + 50
+  var skew = Math.random()*20
+  b.style.width = size +'px'
+  b.style.height = size +'px'
+  b.style.filter = 'blur(20px)'
+  b.style.transform = Math.random() < .5 ? 'skew('+skew*(-1)+'deg)' : 'skew('+skew+'deg)'
+  b.style.borderRadius = '50%'
+  b.style.background = 'white'
+  b.style.opacity = '.1'
+  b.style.position = 'absolute'
+  b.style.bottom = '-200px'
+  b.style.left = Math.random()*(window.innerWidth - 75) + 'px'
+  b.style.animationDelay = Math.random()*.5 + 's'
+  b.style.animationDuration = (Math.random()*10) + 2 + 's'
+  document.body.appendChild(b)
+}
+
+setTimeout(function() {
+  for(var i=0;i<number;i++) { bubble() }
+},100)
