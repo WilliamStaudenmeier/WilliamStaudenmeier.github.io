@@ -332,7 +332,7 @@ hr:not(.thunder) {
   position: fixed;
   left: 50%;
   top: 50%;
-  width: 3vw;
+  width: 4vw;
   height: 4vw;
   margin: -0.2vw 0 0 9.8vw;
   animation: ease 200s alternate infinite;
