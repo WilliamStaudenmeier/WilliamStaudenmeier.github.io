@@ -12,7 +12,7 @@
 }
 
 div {
-  animation:b 350s linear infinite;
+  animation:b 400s linear infinite;
 }
 
 @keyframes b {
