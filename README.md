@@ -1,8 +1,8 @@
-# Studio Ghibli-Themed Intro
+# Studio Ghibli Theme GitHub page: 
 
-Web and Mobile friendly.
+https://williamstaudenmeier.github.io/
 
-GitHub pages doesn't recognize mobile transforms, so image-loading and absolute positioning doesn't translate well from web to mobile.
+GitHub pages doesn't recognize mobile transforms, so image-loading and absolute positioning do not translate well from web to mobile.
 
 The best bet is to create your own animation using flex layout.
 
