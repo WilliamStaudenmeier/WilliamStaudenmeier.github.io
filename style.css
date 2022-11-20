@@ -344,7 +344,7 @@ hr:not(.thunder) {
   animation: drift ease alternate infinite;
 }
 .firefly::after {
-  background: blue;
+  background: white;
   opacity: 0;
   box-shadow: 0 0 0vw 0vw blue;
   animation: drift ease alternate infinite, flash ease infinite;
