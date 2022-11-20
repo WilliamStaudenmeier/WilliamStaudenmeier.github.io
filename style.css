@@ -347,7 +347,7 @@ hr:not(.thunder) {
   transform-origin: -10vw;
 }
 .firefly::before {
-  background: yellow;
+  background: black;
   opacity: 0.1;
   animation: drift ease alternate infinite;
 }
