@@ -24,7 +24,7 @@ toggleText(document.querySelector(".js-dialog"), [
 ], 2);
 
 let hrElement;
-let counter = 5;
+let counter = 20;
 for (let i = 0; i < counter; i++) {
   hrElement = document.createElement("HR");
   if (i == counter - 1) {
