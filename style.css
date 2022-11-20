@@ -340,7 +340,7 @@ hr:not(.thunder) {
 }
 .firefly::before {
   background: black;
-  opacity: 0.4;
+  opacity: 0.1;
   animation: drift ease alternate infinite;
 }
 .firefly::after {
