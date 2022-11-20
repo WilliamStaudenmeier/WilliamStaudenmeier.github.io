@@ -332,8 +332,8 @@ hr:not(.thunder) {
   position: fixed;
   left: 50%;
   top: 50%;
-  width: 1vw;
-  height: 1vw;
+  width: 2vw;
+  height: 2vw;
   margin: -0.2vw 0 0 9.8vw;
   animation: ease 200s alternate infinite;
   pointer-events: none;
@@ -347,7 +347,7 @@ hr:not(.thunder) {
   transform-origin: -10vw;
 }
 .firefly::before {
-  background: black;
+  background: yellow;
   opacity: 0.1;
   animation: drift ease alternate infinite;
 }
