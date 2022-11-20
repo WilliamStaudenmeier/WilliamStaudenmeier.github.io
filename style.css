@@ -12,7 +12,7 @@
 }
 
 div {
-  animation:b 400s linear infinite;
+  animation:b 450s linear infinite;
 }
 
 @keyframes b {
@@ -332,8 +332,8 @@ hr:not(.thunder) {
   position: fixed;
   left: 50%;
   top: 50%;
-  width: 4vw;
-  height: 4vw;
+  width: 3vw;
+  height: 3vw;
   margin: -0.2vw 0 0 9.8vw;
   animation: ease 200s alternate infinite;
   pointer-events: none;
