@@ -24,14 +24,14 @@ toggleText(document.querySelector(".js-dialog"), [
 ], 2);
 
 let hrElement;
-let counter = 10;
+let counter = 5;
 for (let i = 0; i < counter; i++) {
   hrElement = document.createElement("HR");
   if (i == counter - 1) {
     hrElement.className = "thunder";
   } else {
     hrElement.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
-    hrElement.style.animationDuration = 5 + Math.random() * 0.1 + "s";
+    hrElement.style.animationDuration = 6 + Math.random() * 0.1 + "s";
     hrElement.style.animationDelay = Math.random() * 10 + "s";
   }
   document.body.appendChild(hrElement);
