@@ -1,4 +1,4 @@
-# Studio Ghibli Theme GitHub page: 
+# Studio Ghibli Theme GitHub Page 
 
 https://williamstaudenmeier.github.io/
 
