@@ -11,6 +11,14 @@
   flex-direction: column;
 }
 
+div {
+  animation:b 350s linear infinite;
+}
+
+@keyframes b {
+  100% { bottom:50%; opacity:0; }
+}
+
 .kodama {
   display: flex;
   flex-direction: column-reverse;
