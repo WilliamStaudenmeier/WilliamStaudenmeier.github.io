@@ -324,8 +324,8 @@ hr:not(.thunder) {
   position: fixed;
   left: 50%;
   top: 50%;
-  width: 0.4vw;
-  height: 0.4vw;
+  width: 1vw;
+  height: 1vw;
   margin: -0.2vw 0 0 9.8vw;
   animation: ease 200s alternate infinite;
   pointer-events: none;
@@ -346,7 +346,7 @@ hr:not(.thunder) {
 .firefly::after {
   background: white;
   opacity: 0;
-  box-shadow: 0 0 0vw 0vw yellow;
+  box-shadow: 0 0 0vw 0vw blue;
   animation: drift ease alternate infinite, flash ease infinite;
 }
 
