@@ -40,8 +40,8 @@ for (let i = 0; i < counter; i++) {
 number = 40
 function bubble() {
   var b = document.createElement('div')
-  var size = (Math.random()*100) + 50
-  var skew = Math.random()*20
+  var size = (Math.random()*200) + 50
+  var skew = Math.random()*50
   b.style.width = size +'px'
   b.style.height = size +'px'
   b.style.filter = 'blur(20px)'
