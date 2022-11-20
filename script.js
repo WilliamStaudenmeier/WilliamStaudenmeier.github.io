@@ -31,7 +31,7 @@ for (let i = 0; i < counter; i++) {
     hrElement.className = "thunder";
   } else {
     hrElement.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
-    hrElement.style.animationDuration = 6 + Math.random() * 0.1 + "s";
+    hrElement.style.animationDuration = 7 + Math.random() * 0.1 + "s";
     hrElement.style.animationDelay = Math.random() * 10 + "s";
   }
   document.body.appendChild(hrElement);
