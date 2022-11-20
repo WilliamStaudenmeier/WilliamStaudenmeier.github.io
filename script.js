@@ -52,8 +52,8 @@ function bubble() {
   b.style.position = 'absolute'
   b.style.bottom = '-200px'
   b.style.left = Math.random()*(window.innerWidth - 75) + 'px'
-  b.style.animationDelay = Math.random()*.5 + 's'
-  b.style.animationDuration = (Math.random()*10) + 2 + 's'
+  b.style.animationDelay = Math.random()*10 + 's'
+  b.style.animationDuration = (Math.random()*30) + 2 + 's'
   document.body.appendChild(b)
 }
 
