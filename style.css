@@ -304,7 +304,7 @@ hr:not(.thunder) {
   width: 50px;
   border-color: transparent;
   #border-style: solid;
-  border-right-color: rgb(255, 102, 0);
+  border-right-color: rgb(255, 0, 102);
   border-right-width: 100px;
   opacity: .2;
   position: absolute;
