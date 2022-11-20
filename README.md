@@ -1,4 +1,4 @@
-# Studio Ghibli Theme GitHub Page 
+# Studio Ghibli Theme - GitHub Page 
 
 GitHub pages doesn't recognize mobile transforms, so image-loading and absolute positioning do not translate well from web to mobile.
 
