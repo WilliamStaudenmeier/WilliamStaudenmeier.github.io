@@ -22,6 +22,17 @@
   background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
 }
 
+.sprite1 {
+  position:absolute;
+  bottom:20%;
+  height: 3%;
+  width: 1%;
+  border-radius:50%;
+  right: 14px;
+  opacity: .5;
+  background-image: linear-gradient(to top right, rgb(250, 250, 200),rgb(250, 250, 250));
+}
+
 .bush1 {
   position:absolute;
   bottom:0px;
