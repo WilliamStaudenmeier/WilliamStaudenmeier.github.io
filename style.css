@@ -1718,8 +1718,8 @@ hr:not(.thunder) {
 .sprite6 {
   position:absolute;
   z-index:94;
-  top:10%;
-  left:2%;
+  top:70%;
+  left:50%;
   height: 3%;
   width: 4%;
    background-image: radial-gradient(#212121 1%, #fff 11%);
@@ -1734,8 +1734,8 @@ hr:not(.thunder) {
 .sprite6a {opacity:.5;
   position:absolute;
   z-index:74;
-  top:12%;
-  left:2%;
+  top:72%;
+  left:50%;
   height: 3%;
   width: 2%;
   background-color: #fff;
@@ -1746,11 +1746,23 @@ hr:not(.thunder) {
 }
 
 
-.sprite10 {opacity:.5;
+.sprite10 {opacity:.3;
   position:absolute;
   z-index:89;
-  bottom:1%;
+  bottom:5%;
   right:31%;
+  height: 4%;
+  width: 3%;
+  background-color: #fff;
+  border-radius: 100% 100% 100% 100%;
+  box-shadow: 0 0 50px 50px rgb(255, 204, 204, 0.6);
+}
+
+.sprite10a {opacity:.4;
+  position:absolute;
+  z-index:89;
+  bottom:8%;
+  left:31%;
   height: 4%;
   width: 3%;
   background-color: #fff;
