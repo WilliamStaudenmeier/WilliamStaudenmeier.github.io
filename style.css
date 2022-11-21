@@ -1592,7 +1592,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:100;
   top:6%;
-  left:6%;
+  left:1%;
   height: 2%;
   width: 2%;
   background-color: #fff;
@@ -1624,7 +1624,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:97;
   bottom:30%;
-  left:7%;
+  left:1%;
   height: 2%;
   width: 2%;
   background-color: #fff;
@@ -1640,7 +1640,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:96;
   top:20%;
-  left:9%;
+  left:2%;
   height: 2%;
   width: 2%;
   background-color: #fff;
@@ -1656,7 +1656,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:94;
   bottom:10%;
-  left:9%;
+  left:2%;
   height: 2%;
   width: 2%;
   background-color: #fff;
@@ -1672,7 +1672,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:92;
   bottom:11%;
-  left:11%;
+  left:1%;
   height: 2%;
   width: 2%;
   background-color: #fff;
@@ -1685,7 +1685,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:91;
   bottom:13%;
-  left:9%;
+  left:2%;
   height: 2%;
   width: 2%;
   background-color: #fff;
@@ -1746,7 +1746,7 @@ hr:not(.thunder) {
   position:absolute;
   bottom:0px;
   height: 10%;
-  width: 50%;
+  width: 150%;
   border-radius:20%;
   left: 3px;
   opacity: .9;
