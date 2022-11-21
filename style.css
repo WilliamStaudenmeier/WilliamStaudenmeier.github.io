@@ -1623,8 +1623,8 @@ hr:not(.thunder) {
 .sprite4 {
   position:absolute;
   z-index:97;
-  bottom:30%;
-  left:1%;
+  top:3%;
+  left:20%;
   height: 2%;
   width: 2%;
   background-color: #fff;
@@ -1640,7 +1640,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:96;
   top:20%;
-  left:2%;
+  left:21%;
   height: 2%;
   width: 2%;
   background-color: #fff;
@@ -1655,7 +1655,7 @@ hr:not(.thunder) {
 .sprite6 {
   position:absolute;
   z-index:94;
-  bottom:10%;
+  top:10%;
   left:2%;
   height: 2%;
   width: 2%;
@@ -1671,7 +1671,7 @@ hr:not(.thunder) {
 .sprite7 {
   position:absolute;
   z-index:92;
-  bottom:11%;
+  top:11%;
   left:1%;
   height: 2%;
   width: 2%;
