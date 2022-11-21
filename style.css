@@ -1837,8 +1837,8 @@ hr:not(.thunder) {
   z-index:69;
   bottom:1%;
   right:30%;
-  height: 4%;
-  width: 2%;
+  height: 6%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgb(255, 204, 204, 0.6);
@@ -1873,8 +1873,8 @@ hr:not(.thunder) {
   z-index:97;
   bottom:1%;
   left:19%;
-  height: 4%;
-  width: 2%;
+  height: 6%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgb(255, 204, 204, 0.6);
