@@ -1641,6 +1641,9 @@ hr:not(.thunder) {
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
+    transform: rotateZ(15deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
@@ -1654,6 +1657,9 @@ hr:not(.thunder) {
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
+    transform: rotateZ(15deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
@@ -1667,6 +1673,9 @@ hr:not(.thunder) {
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
+    transform: rotateZ(15deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
@@ -1699,7 +1708,7 @@ hr:not(.thunder) {
 .sprite9 {
   position:fixed;
   z-index:93;
-  bottom:20%;
+  bottom:3%;
   right:9%;
   height: 2%;
   width: 1%;
@@ -1711,13 +1720,13 @@ hr:not(.thunder) {
 .sprite10 {
   position:fixed;
   z-index:89;
-  bottom:70%;
+  bottom:2%;
   right:30%;
   height: 2%;
   width: 1%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
-  box-shadow: 0 0 10px 10px rgba(250, 250, 100, 0.6);
+  box-shadow: 0 0 10px 10px rgba(250, 250, 0, 0.6);
 }
 
 .bush1 {
