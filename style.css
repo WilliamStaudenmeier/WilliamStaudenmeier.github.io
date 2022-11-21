@@ -26,8 +26,8 @@
   position:absolute;
   bottom:70%;
   right:10%;
-  height: .5%;
-  width: .1%;
+  height: 1%;
+  width: 1%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -42,8 +42,8 @@
   position:absolute;
   bottom:21%;
   right:20%;
-  height: .5%;
-  width: .1%;
+  height: 1%;
+  width: 1%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -57,8 +57,8 @@
   position:absolute;
   bottom:22%;
   right:30%;
-  height: .5%;
-  width: .1%;
+  height: 1%;
+  width: 1%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
