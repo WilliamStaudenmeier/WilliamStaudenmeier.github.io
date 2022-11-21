@@ -1697,10 +1697,10 @@ hr:not(.thunder) {
 .sprite9 {
   position:absolute;
   z-index:93;
-  bottom:8%;
+  bottom:18%;
   right:9%;
   height: 2%;
-  width: 1%;
+  width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgba(250, 250, 200, 0.6);
@@ -1711,8 +1711,8 @@ hr:not(.thunder) {
   z-index:89;
   bottom:7%;
   right:30%;
-  height: 2%;
-  width: 1%;
+  height: 1%;
+  width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgba(250, 250, 0, 0.6);
@@ -1721,10 +1721,10 @@ hr:not(.thunder) {
 .sprite11 {
   position:absolute;
   z-index:97;
-  bottom:3%;
+  bottom:13%;
   left:19%;
-  height: 2%;
-  width: 1%;
+  height: 1%;
+  width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgba(250, 250, 100, 0.6);
@@ -1733,10 +1733,10 @@ hr:not(.thunder) {
 .sprite12 {
   position:absolute;
   z-index:85;
-  bottom:2%;
+  bottom:12%;
   right:37%;
-  height: 2%;
-  width: 1%;
+  height: 1%;
+  width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgba(250, 250, 0, 0.6);
