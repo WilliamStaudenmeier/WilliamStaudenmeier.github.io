@@ -25,8 +25,10 @@
 .sprite1 {
   position:absolute;
   bottom:70%;
+  right:10%;
   height: 3%;
   width: 1%;
+  opacity:.5;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -40,6 +42,8 @@
 .sprite2 {
   position:absolute;
   bottom:21%;
+  right:20%;
+  opacity:.5;
   height: 3%;
   width: 1%;
   background-color: #fff;
@@ -54,6 +58,8 @@
 .sprite3 {
   position:absolute;
   bottom:22%;
+  right:30%;
+  opacity:.5;
   height: 3%;
   width: 1%;
   background-color: #fff;
