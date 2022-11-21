@@ -1587,7 +1587,7 @@ hr:not(.thunder) {
   bottom:0px;
   height: 150%;
   width: 20%;
-  border-radius:50%;
+  border-radius:10%;
   left: 0px;
   opacity: .9;
   background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
