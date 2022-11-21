@@ -1661,7 +1661,7 @@ hr:not(.thunder) {
 .sprite4 {
   position:absolute;
   z-index:97;
-  top:4%;
+  top:74%;
   left:20%;
   height: 3%;
   width: 4%;
@@ -1677,7 +1677,7 @@ hr:not(.thunder) {
 .sprite4a {opacity:.5;
   position:absolute;
   z-index:77;
-  top:6%;
+  top:76%;
   left:20%;
   height: 3%;
   width: 2%;
@@ -1753,7 +1753,7 @@ hr:not(.thunder) {
   right:31%;
   height: 4%;
   width: 3%;
-  background-color: #fff;
+  background-color: rgb(255, 204, 204);
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 50px 50px rgb(255, 204, 204, 0.6);
 }
@@ -1765,7 +1765,7 @@ hr:not(.thunder) {
   left:31%;
   height: 4%;
   width: 3%;
-  background-color: #fff;
+  background-color: rgb(255, 204, 204);
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 50px 50px rgb(255, 204, 204, 0.6);
 }
