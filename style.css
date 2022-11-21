@@ -1583,7 +1583,8 @@ hr:not(.thunder) {
 }
 
 .tree {
-  position:absolute;
+  position:fixed;
+  z-index:1;
   bottom:0px;
   height: 150%;
   width: 20%;
@@ -1702,12 +1703,12 @@ hr:not(.thunder) {
 .bush1 {
   position:absolute;
   bottom:0px;
-  height: 30%;
+  height: 10%;
   width: 50%;
-  border-radius:50%;
+  border-radius:20%;
   left: 3px;
-  opacity: .5;
-  background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
+  opacity: .9;
+  background-image: linear-gradient(to top right, rgb(17, 17, 13),rgb(17, 17, 13));
   
 }
 
@@ -1730,7 +1731,7 @@ hr:not(.thunder) {
   border-radius:50%;
   left: 20%;
   opacity:.9;
-  background-image: linear-gradient(rgb(17, 17, 34), rgb(17, 17, 13));
+  background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 13));
 }
 
 .fol3 {
@@ -1741,7 +1742,7 @@ hr:not(.thunder) {
   border-radius:50%;
   left: 40%;
   opacity:.9;
-  background-image: linear-gradient(rgb(17, 17, 34), rgb(17, 17, 13));
+  background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 13));
 }
 
 .fol4 {
@@ -1752,5 +1753,5 @@ hr:not(.thunder) {
   border-radius:50%;
   right: 0px;
   opacity:.9;
-  background-image: linear-gradient(rgb(17, 17, 34), rgb(17, 17, 23));
+  background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 23));
 }
