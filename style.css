@@ -1711,7 +1711,7 @@ hr:not(.thunder) {
   z-index:89;
   bottom:7%;
   right:30%;
-  height: 1%;
+  height: 2%;
   width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
@@ -1723,7 +1723,7 @@ hr:not(.thunder) {
   z-index:97;
   bottom:13%;
   left:19%;
-  height: 1%;
+  height: 2%;
   width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
@@ -1735,7 +1735,7 @@ hr:not(.thunder) {
   z-index:85;
   bottom:12%;
   right:37%;
-  height: 1%;
+  height: 2%;
   width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
