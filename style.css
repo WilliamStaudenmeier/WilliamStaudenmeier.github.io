@@ -1697,7 +1697,7 @@ hr:not(.thunder) {
 .sprite9 {
   position:absolute;
   z-index:93;
-  bottom:18%;
+  bottom:8%;
   right:9%;
   height: 2%;
   width: 2%;
@@ -1721,7 +1721,7 @@ hr:not(.thunder) {
 .sprite11 {
   position:absolute;
   z-index:97;
-  bottom:13%;
+  bottom:3%;
   left:19%;
   height: 2%;
   width: 2%;
@@ -1733,7 +1733,7 @@ hr:not(.thunder) {
 .sprite12 {
   position:absolute;
   z-index:85;
-  bottom:12%;
+  bottom:2%;
   right:37%;
   height: 2%;
   width: 2%;
@@ -1759,7 +1759,7 @@ hr:not(.thunder) {
   top:0px;
   height: 10%;
   width: 50%;
-  border-radius:50%;
+  border-radius:20%;
   left: 0px;
   opacity:.9;
   background-image: linear-gradient(rgb(17, 17, 34), rgb(17, 17, 13));
@@ -1770,7 +1770,7 @@ hr:not(.thunder) {
   top:0px;
   height: 10%;
   width: 50%;
-  border-radius:50%;
+  border-radius:20%;
   left: 20%;
   opacity:.9;
   background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 13));
@@ -1781,7 +1781,7 @@ hr:not(.thunder) {
   top:0px;
   height: 10%;
   width: 50%;
-  border-radius:50%;
+  border-radius:20%;
   left: 40%;
   opacity:.9;
   background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 13));
@@ -1792,10 +1792,10 @@ hr:not(.thunder) {
   top:0px;
   height: 20%;
   width: 50%;
-  border-radius:50%;
+  border-radius:20%;
   right: 0px;
   opacity:.9;
-  background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 23));
+  background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 13));
 }
 
 .tree {
