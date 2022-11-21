@@ -1582,18 +1582,6 @@ hr:not(.thunder) {
   }
 }
 
-.tree {
-  position:fixed;
-  z-index:1;
-  bottom:0px;
-  height: 150%;
-  width: 20%;
-  border-radius:10%;
-  left: 0px;
-  opacity: .9;
-  background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
-}
-
 .sprite1 {
   position:absolute;
   top:5%;
@@ -1754,4 +1742,16 @@ hr:not(.thunder) {
   right: 0px;
   opacity:.9;
   background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 23));
+}
+
+.tree {
+  position:fixed;
+  z-index:1;
+  bottom:0px;
+  height: 150%;
+  width: 20%;
+  border-radius:10%;
+  left: 0px;
+  opacity: .9;
+  background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
 }
