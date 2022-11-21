@@ -92,6 +92,42 @@
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
+.sprite6 {
+  position:absolute;
+  bottom:10%;
+  left:9%;
+  height: 1%;
+  width: 1%;
+  background-color: #fff;
+  border-radius: 100% 100% 60% 100%;
+  border: 2px solid #112;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
+.sprite7 {
+  position:absolute;
+  bottom:11%;
+  left:11%;
+  height: 1%;
+  width: 1%;
+  background-color: #fff;
+  border-radius: 100% 100% 60% 100%;
+  border: 2px solid #112;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
+.sprite8 {
+  position:absolute;
+  bottom:13%;
+  left:9%;
+  height: 1%;
+  width: 1%;
+  background-color: #fff;
+  border-radius: 100% 100% 60% 100%;
+  border: 2px solid #112;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
 .bush1 {
   position:absolute;
   bottom:0px;
@@ -468,8 +504,8 @@ hr:not(.thunder) {
   position: fixed;
   left: 50%;
   top: 50%;
-  width: 3vw;
-  height: 3vw;
+  width: 5vw;
+  height: 5vw;
   margin: -0.2vw 0 0 9.8vw;
   animation: ease 200s alternate infinite;
   pointer-events: none;
