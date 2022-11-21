@@ -1751,8 +1751,8 @@ hr:not(.thunder) {
   z-index:89;
   bottom:5%;
   right:31%;
-  height: 4%;
-  width: 3%;
+  height: 1%;
+  width: 1%;
   background-color: rgb(255, 204, 204);
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 50px 50px rgb(255, 204, 204, 0.6);
@@ -1763,8 +1763,8 @@ hr:not(.thunder) {
   z-index:89;
   bottom:8%;
   left:31%;
-  height: 4%;
-  width: 3%;
+  height: 1%;
+  width: 1%;
   background-color: rgb(255, 204, 204);
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 50px 50px rgb(255, 204, 204, 0.6);
