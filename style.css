@@ -1823,9 +1823,9 @@ hr:not(.thunder) {
   position:absolute;
   z-index:89;
   bottom:7%;
-  right:30%;
-  height: 1%;
-  width: 1%;
+  right:31%;
+  height: 4%;
+  width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgba(250, 250, 0, 0.6);
@@ -1848,8 +1848,8 @@ hr:not(.thunder) {
   z-index:97;
   bottom:3%;
   left:19%;
-  height: 1%;
-  width: 1%;
+  height: 4%;
+  width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgba(250, 250, 100, 0.6);
@@ -1859,7 +1859,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:57;
   bottom:2%;
-  left:19%;
+  left:20%;
   height: 4%;
   width: 2%;
   background-color: #fff;
