@@ -1757,46 +1757,15 @@ hr:not(.thunder) {
 .fol1 {
   position:absolute;
   top:0px;
-  height: 20%;
-  width: 50%;
-  border-radius:50%;
+  height: 30%;
+  width: 70%;
+  border-radius:60%;
   left: 0px;
   opacity:.9;
-  background-image: linear-gradient(rgb(17, 17, 34), rgb(17, 17, 13));
+  background-image: linear-gradient(rgb(17, 17, 13), rgb(17, 17, 13));
 }
 
-.fol2 {
-  position:absolute;
-  top:0px;
-  height: 10%;
-  width: 50%;
-  border-radius:40%;
-  left: 20%;
-  opacity:.9;
-  background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 13));
-}
 
-.fol3 {
-  position:absolute;
-  top:0px;
-  height: 10%;
-  width: 50%;
-  border-radius:40%;
-  left: 40%;
-  opacity:.9;
-  background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 13));
-}
-
-.fol4 {
-  position:absolute;
-  top:0px;
-  height: 10%;
-  width: 50%;
-  border-radius:40%;
-  right: 0px;
-  opacity:.9;
-  background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 13));
-}
 
 .tree {
   position:fixed;
