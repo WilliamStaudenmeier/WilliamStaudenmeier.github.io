@@ -1583,7 +1583,7 @@ hr:not(.thunder) {
 }
 
 .sprite1 {
-  position:fixed;
+  position:absolute;
   z-index:99;
   top:5%;
   left:8%;
@@ -1600,7 +1600,7 @@ hr:not(.thunder) {
 
 
 .sprite2 {
-  position:fixed;
+  position:absolute;
   z-index:100;
   top:6%;
   left:6%;
@@ -1616,7 +1616,7 @@ hr:not(.thunder) {
 }
 
 .sprite3 {
-  position:fixed;
+  position:absolute;
   z-index:98;
   top:7%;
   left:2%;
@@ -1632,7 +1632,7 @@ hr:not(.thunder) {
 }
 
 .sprite4 {
-  position:fixed;
+  position:absolute;
   z-index:97;
   bottom:30%;
   left:7%;
@@ -1648,7 +1648,7 @@ hr:not(.thunder) {
 }
 
 .sprite5 {
-  position:fixed;
+  position:absolute;
   z-index:96;
   top:20%;
   left:9%;
@@ -1664,7 +1664,7 @@ hr:not(.thunder) {
 }
 
 .sprite6 {
-  position:fixed;
+  position:absolute;
   z-index:94;
   bottom:10%;
   left:9%;
@@ -1680,7 +1680,7 @@ hr:not(.thunder) {
 }
 
 .sprite7 {
-  position:fixed;
+  position:absolute;
   z-index:92;
   bottom:11%;
   left:11%;
@@ -1693,7 +1693,7 @@ hr:not(.thunder) {
 }
 
 .sprite8 {
-  position:fixed;
+  position:absolute;
   z-index:91;
   bottom:13%;
   left:9%;
@@ -1708,7 +1708,7 @@ hr:not(.thunder) {
 .sprite9 {
   position:fixed;
   z-index:93;
-  bottom:3%;
+  bottom:23%;
   right:9%;
   height: 2%;
   width: 1%;
@@ -1720,8 +1720,32 @@ hr:not(.thunder) {
 .sprite10 {
   position:fixed;
   z-index:89;
-  bottom:2%;
+  bottom:22%;
   right:30%;
+  height: 2%;
+  width: 1%;
+  background-color: #fff;
+  border-radius: 100% 100% 100% 100%;
+  box-shadow: 0 0 10px 10px rgba(250, 250, 0, 0.6);
+}
+
+.sprite11 {
+  position:fixed;
+  z-index:97;
+  top:23%;
+  left:19%;
+  height: 2%;
+  width: 1%;
+  background-color: #fff;
+  border-radius: 100% 100% 100% 100%;
+  box-shadow: 0 0 10px 10px rgba(250, 250, 100, 0.6);
+}
+
+.sprite12 {
+  position:fixed;
+  z-index:85;
+  top:32%;
+  right:37%;
   height: 2%;
   width: 1%;
   background-color: #fff;
