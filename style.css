@@ -1790,8 +1790,7 @@ hr:not(.thunder) {
   z-index:1;
   bottom:0px;
   height: 150%;
-  width: 20%;
-  border-radius:10%;
+  width: 2%;
   left: 0px;
   opacity: .9;
   background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
