@@ -21,16 +21,6 @@
   background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
 }
 
-.tree2 {
-  position:absolute;
-  top:0px;
-  height: 2%;
-  width: 100%;
-  border-radius:10%;
-  left: 0px;
-  background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
-}
-
 .fol1 {
   position:absolute;
   top:0px;
@@ -73,7 +63,7 @@
   right: 0px;
   opacity:.5;
   background-image: linear-gradient(rgb(17, 17, 34), rgb(17, 17, 23));
-
+}
 div {
   animation:b 450s linear infinite;
 }
