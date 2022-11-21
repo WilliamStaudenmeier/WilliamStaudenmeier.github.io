@@ -1690,7 +1690,7 @@ hr:not(.thunder) {
 .sprite5 {
   position:absolute;
   z-index:96;
-  top:20%;
+  top:75%;
   left:21%;
   height: 3%;
   width: 4%;
@@ -1706,7 +1706,7 @@ hr:not(.thunder) {
 .sprite5a {opacity:.5;
   position:absolute;
   z-index:76;
-  top:22%;
+  top:77%;
   left:21%;
   height: 3%;
   width: 2%;
