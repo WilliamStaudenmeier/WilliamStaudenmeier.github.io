@@ -68,6 +68,30 @@
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
+.sprite4 {
+  position:absolute;
+  top:30%;
+  right:30%;
+  height: 3%;
+  width: 3%;
+  background-color: #fff;
+  border-radius: 100% 100% 60% 100%;
+  border: 2px solid #112;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
+.sprite5 {
+  position:absolute;
+  top:20%;
+  left:30%;
+  height: 3%;
+  width: 3%;
+  background-color: #fff;
+  border-radius: 100% 100% 60% 100%;
+  border: 2px solid #112;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
 .bush1 {
   position:absolute;
   bottom:0px;
