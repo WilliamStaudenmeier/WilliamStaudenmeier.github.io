@@ -1746,7 +1746,7 @@ hr:not(.thunder) {
 }
 
 
-.sprite10 {opacity:.1;
+.sprite10 {opacity:.5;
   position:absolute;
   z-index:89;
   bottom:1%;
