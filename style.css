@@ -25,7 +25,7 @@
 .sprite1 {
   position:absolute;
   top:5%;
-  right:10%;
+  left:13%;
   height: 1%;
   width: 1%;
   background-color: #fff;
@@ -41,7 +41,7 @@
 .sprite2 {
   position:absolute;
   top:6%;
-  right:20%;
+  left:6%;
   height: 1%;
   width: 1%;
   background-color: #fff;
@@ -56,7 +56,7 @@
 .sprite3 {
   position:absolute;
   top:7%;
-  right:30%;
+  left:20%;
   height: 1%;
   width: 1%;
   background-color: #fff;
@@ -71,7 +71,7 @@
 .sprite4 {
   position:absolute;
   bottom:30%;
-  left:10%;
+  left:7%;
   height: 1%;
   width: 1%;
   background-color: #fff;
@@ -83,9 +83,9 @@
 .sprite5 {
   position:absolute;
   top:20%;
-  right:10%;
-  height: 2%;
-  width: 2%;
+  left:9%;
+  height: 1%;
+  width: 1%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
