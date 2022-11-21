@@ -1779,7 +1779,7 @@ hr:not(.thunder) {
 .fol3 {
   position:absolute;
   top:0px;
-  height: 20%;
+  height: 10%;
   width: 50%;
   border-radius:40%;
   left: 40%;
@@ -1790,7 +1790,7 @@ hr:not(.thunder) {
 .fol4 {
   position:absolute;
   top:0px;
-  height: 20%;
+  height: 10%;
   width: 50%;
   border-radius:40%;
   right: 0px;
