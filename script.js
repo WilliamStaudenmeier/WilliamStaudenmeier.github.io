@@ -24,7 +24,7 @@ toggleText(document.querySelector(".js-dialog"), [
 ], 2);
 
 let hrElement;
-let counter = 5;
+let counter = 2;
 for (let i = 0; i < counter; i++) {
   hrElement = document.createElement("HR");
   if (i == counter - 1) {
@@ -37,7 +37,7 @@ for (let i = 0; i < counter; i++) {
   document.body.appendChild(hrElement);
 }
 
-number = 40
+number = 10
 function bubble() {
   var b = document.createElement('div')
   var size = (Math.random()*200) + 75
