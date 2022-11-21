@@ -1701,8 +1701,8 @@ hr:not(.thunder) {
   z-index:93;
   bottom:20%;
   right:9%;
-  height: 2%;
-  width: 2%;
+  height: 4%;
+  width: 3%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgba(250, 250, 200, 0.6);
@@ -1711,10 +1711,10 @@ hr:not(.thunder) {
 .sprite10 {
   position:fixed;
   z-index:89;
-  bottom:19%;
+  bottom:70%;
   right:30%;
   height: 4%;
-  width: 1%;
+  width: 3%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgba(250, 250, 100, 0.6);
