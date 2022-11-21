@@ -1805,7 +1805,7 @@ hr:not(.thunder) {
   width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
-  box-shadow: 0 0 10px 10px rgba(250, 250, 100, 0.6);
+  box-shadow: 0 0 10px 10px rgb(255, 204, 204, 0.6);
 }
 
 .sprite9a {opacity:.5;
@@ -1841,7 +1841,31 @@ hr:not(.thunder) {
   width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
-  box-shadow: 0 0 10px 10px rgba(250, 250, 0, 0.6);
+  box-shadow: 0 0 10px 10px rgb(255, 204, 204, 0.6);
+}
+
+.sprite10b {opacity:.5;
+  position:absolute;
+  z-index:69;
+  bottom:6%;
+  right:29%;
+  height: 4%;
+  width: 2%;
+  background-color: #fff;
+  border-radius: 100% 100% 100% 100%;
+  box-shadow: 0 0 10px 10px rgb(255, 204, 204, 0.6);
+}
+
+.sprite10c {opacity:.5;
+  position:absolute;
+  z-index:69;
+  bottom:5%;
+  right:29%;
+  height: 4%;
+  width: 2%;
+  background-color: #fff;
+  border-radius: 100% 100% 100% 100%;
+  box-shadow: 0 0 10px 10px rgb(255, 204, 204, 0.6);
 }
 
 .sprite11 {
@@ -1853,7 +1877,7 @@ hr:not(.thunder) {
   width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
-  box-shadow: 0 0 10px 10px rgba(250, 250, 100, 0.6);
+  box-shadow: 0 0 10px 10px rgb(255, 204, 204, 0.6);
 }
 
 .sprite11a {opacity:.5;
@@ -1865,7 +1889,19 @@ hr:not(.thunder) {
   width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
-  box-shadow: 0 0 10px 10px rgba(250, 250, 100, 0.6);
+  box-shadow: 0 0 10px 10px rgb(255, 204, 204, 0.6);
+}
+
+.sprite11b {opacity:.5;
+  position:absolute;
+  z-index:57;
+  bottom:3%;
+  left:20%;
+  height: 4%;
+  width: 2%;
+  background-color: #fff;
+  border-radius: 100% 100% 100% 100%;
+  box-shadow: 0 0 10px 10px rgb(255, 204, 204, 0.6);
 }
 
 .sprite12 {
