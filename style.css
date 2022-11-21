@@ -1583,7 +1583,8 @@ hr:not(.thunder) {
 }
 
 .sprite1 {
-  position:absolute;
+  position:fixed;
+  z-index:99;
   top:5%;
   left:13%;
   height: 1%;
@@ -1599,7 +1600,8 @@ hr:not(.thunder) {
 
 
 .sprite2 {
-  position:absolute;
+  position:fixed;
+  z-index:100;
   top:6%;
   left:6%;
   height: 1%;
@@ -1614,7 +1616,8 @@ hr:not(.thunder) {
 }
 
 .sprite3 {
-  position:absolute;
+  position:fixed;
+  z-index:98;
   top:7%;
   left:20%;
   height: 1%;
@@ -1629,7 +1632,8 @@ hr:not(.thunder) {
 }
 
 .sprite4 {
-  position:absolute;
+  position:fixed;
+  z-index:97;
   bottom:30%;
   left:7%;
   height: 1%;
@@ -1641,7 +1645,8 @@ hr:not(.thunder) {
 }
 
 .sprite5 {
-  position:absolute;
+  position:fixed;
+  z-index:96;
   top:20%;
   left:9%;
   height: 1%;
@@ -1653,7 +1658,8 @@ hr:not(.thunder) {
 }
 
 .sprite6 {
-  position:absolute;
+  position:fixed;
+  z-index:94;
   bottom:10%;
   left:9%;
   height: 1%;
@@ -1665,7 +1671,8 @@ hr:not(.thunder) {
 }
 
 .sprite7 {
-  position:absolute;
+  position:fixed;
+  z-index:92;
   bottom:11%;
   left:11%;
   height: 1%;
@@ -1677,7 +1684,8 @@ hr:not(.thunder) {
 }
 
 .sprite8 {
-  position:absolute;
+  position:fixed;
+  z-index:91;
   bottom:13%;
   left:9%;
   height: 1%;
