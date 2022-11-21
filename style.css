@@ -1756,7 +1756,7 @@ hr:not(.thunder) {
 
 .fol1 {
   position:absolute;
-  top:0px;
+  top:-20%!;
   height: 30%;
   width: 70%;
   border-radius:60%;
