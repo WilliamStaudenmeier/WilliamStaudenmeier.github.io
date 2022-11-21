@@ -1577,7 +1577,7 @@ hr:not(.thunder) {
   top:5%;
   left:8%;
   height: 3%;
-  width: 3%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -1608,7 +1608,7 @@ hr:not(.thunder) {
   top:6%;
   left:1%;
   height: 3%;
-  width: 3%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -1636,7 +1636,7 @@ hr:not(.thunder) {
   top:7%;
   left:2%;
   height: 3%;
-  width: 3%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -1664,7 +1664,7 @@ hr:not(.thunder) {
   top:4%;
   left:20%;
   height: 3%;
-  width: 3%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -1693,7 +1693,7 @@ hr:not(.thunder) {
   top:20%;
   left:21%;
   height: 3%;
-  width: 3%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -1721,7 +1721,7 @@ hr:not(.thunder) {
   top:10%;
   left:2%;
   height: 3%;
-  width: 3%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -1752,7 +1752,7 @@ hr:not(.thunder) {
   top:11%;
   left:1%;
   height: 3%;
-  width: 3%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -1775,7 +1775,7 @@ hr:not(.thunder) {
   bottom:13%;
   left:2%;
   height: 3%;
-  width: 3%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -1802,7 +1802,7 @@ hr:not(.thunder) {
   bottom:8%;
   right:9%;
   height: 3%;
-  width: 3%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgb(255, 204, 204, 0.6);
@@ -1811,7 +1811,7 @@ hr:not(.thunder) {
 .sprite9a {opacity:.5;
   position:absolute;
   z-index:93;
-  bottom:6%;
+  bottom:7%;
   right:9%;
   height: 3%;
   width: 2%;
@@ -1910,7 +1910,7 @@ hr:not(.thunder) {
   bottom:2%;
   right:37%;
   height: 3%;
-  width: 3%;
+  width: 4%;
   background-color: #fff;
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 10px 10px rgba(250, 250, 0, 0.6);
