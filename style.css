@@ -22,6 +22,17 @@
   background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
 }
 
+.bush1 {
+  position:absolute;
+  bottom:0px;
+  height: 30%;
+  width: 50%;
+  border-radius:50%;
+  left: 3px;
+  opacity: .5;
+  background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
+}
+
 .fol1 {
   position:absolute;
   top:0px;
