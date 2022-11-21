@@ -1757,9 +1757,9 @@ hr:not(.thunder) {
 .fol1 {
   position:absolute;
   top:0px;
-  height: 10%;
+  height: 20%;
   width: 50%;
-  border-radius:40%;
+  border-radius:50%;
   left: 0px;
   opacity:.9;
   background-image: linear-gradient(rgb(17, 17, 34), rgb(17, 17, 13));
@@ -1779,9 +1779,9 @@ hr:not(.thunder) {
 .fol3 {
   position:absolute;
   top:0px;
-  height: 10%;
+  height: 20%;
   width: 50%;
-  border-radius:30%;
+  border-radius:40%;
   left: 40%;
   opacity:.9;
   background-image: linear-gradient(rgb(17, 17, 23), rgb(17, 17, 13));
