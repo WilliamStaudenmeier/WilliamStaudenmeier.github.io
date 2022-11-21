@@ -70,10 +70,10 @@
 
 .sprite4 {
   position:absolute;
-  top:30%;
-  right:30%;
-  height: 3%;
-  width: 3%;
+  bottom:30%;
+  left:10%;
+  height: 1%;
+  width: 1%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
@@ -83,9 +83,9 @@
 .sprite5 {
   position:absolute;
   top:20%;
-  left:30%;
-  height: 3%;
-  width: 3%;
+  right:10%;
+  height: 2%;
+  width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
