@@ -24,7 +24,7 @@
 
 .sprite1 {
   position:absolute;
-  bottom:70%;
+  top:5%;
   right:10%;
   height: 1%;
   width: 1%;
@@ -40,7 +40,7 @@
 
 .sprite2 {
   position:absolute;
-  bottom:21%;
+  top:6%;
   right:20%;
   height: 1%;
   width: 1%;
@@ -55,7 +55,7 @@
 
 .sprite3 {
   position:absolute;
-  bottom:22%;
+  top:7%;
   right:30%;
   height: 1%;
   width: 1%;
