@@ -1578,7 +1578,7 @@ hr:not(.thunder) {
   left:8%;
   height: 3%;
   width: 4%;
-  background-image: radial-gradient(#212121 20%, #fff 20%);
+  background-image: radial-gradient(#212121 1%, #fff 20%);
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
   transform: rotateZ(15deg);
@@ -1609,7 +1609,7 @@ hr:not(.thunder) {
   left:1%;
   height: 3%;
   width: 4%;
-  background-color: #fff;
+  background-image: radial-gradient(#212121 1%, #fff 20%);
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
   transform: rotateZ(15deg);
@@ -1637,7 +1637,7 @@ hr:not(.thunder) {
   left:2%;
   height: 3%;
   width: 4%;
-  background-color: #fff;
+  background-image: radial-gradient(#212121 1%, #fff 20%);
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
   transform: rotateZ(15deg);
@@ -1665,7 +1665,7 @@ hr:not(.thunder) {
   left:20%;
   height: 3%;
   width: 4%;
-  background-color: #fff;
+ background-image: radial-gradient(#212121 1%, #fff 20%);
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
     transform: rotateZ(15deg);
@@ -1694,7 +1694,7 @@ hr:not(.thunder) {
   left:21%;
   height: 3%;
   width: 4%;
-  background-color: #fff;
+   background-image: radial-gradient(#212121 1%, #fff 20%);
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
     transform: rotateZ(15deg);
@@ -1722,7 +1722,7 @@ hr:not(.thunder) {
   left:2%;
   height: 3%;
   width: 4%;
-  background-color: #fff;
+   background-image: radial-gradient(#212121 1%, #fff 20%);
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
     transform: rotateZ(15deg);
@@ -1753,7 +1753,7 @@ hr:not(.thunder) {
   left:1%;
   height: 3%;
   width: 4%;
-  background-color: #fff;
+   background-image: radial-gradient(#212121 1%, #fff 20%);
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
