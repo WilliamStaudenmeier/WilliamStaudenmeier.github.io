@@ -1591,7 +1591,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:71;
   opacity:.5;
-  top:6%;
+  top:7%;
   left:8%;
   height: 3%;
   width: 2%;
@@ -1620,7 +1620,7 @@ hr:not(.thunder) {
 .sprite2a {opacity:.5;
   position:absolute;
   z-index:70;
-  top:7%;
+  top:8%;
   left:1%;
   height: 3%;
   width: 2%;
@@ -1648,7 +1648,7 @@ hr:not(.thunder) {
 .sprite3a {opacity:.5;
   position:absolute;
   z-index:78;
-  top:8%;
+  top:9%;
   left:2%;
   height: 3%;
   width: 2%;
@@ -1677,7 +1677,7 @@ hr:not(.thunder) {
 .sprite4a {opacity:.5;
   position:absolute;
   z-index:77;
-  top:5%;
+  top:6%;
   left:20%;
   height: 3%;
   width: 2%;
@@ -1706,7 +1706,7 @@ hr:not(.thunder) {
 .sprite5a {opacity:.5;
   position:absolute;
   z-index:76;
-  top:21%;
+  top:22%;
   left:21%;
   height: 3%;
   width: 2%;
@@ -1734,7 +1734,7 @@ hr:not(.thunder) {
 .sprite6a {opacity:.5;
   position:absolute;
   z-index:74;
-  top:11%;
+  top:12%;
   left:2%;
   height: 3%;
   width: 2%;
@@ -1762,7 +1762,7 @@ hr:not(.thunder) {
 .sprite7a {opacity:.5;
   position:absolute;
   z-index:72;
-  top:12%;
+  top:13%;
   left:1%;
   height: 3%;
   width: 2%;
@@ -1785,7 +1785,7 @@ hr:not(.thunder) {
 .sprite8a {opacity:.5;
   position:absolute;
   z-index:71;
-  bottom:11%;
+  bottom:10%;
   left:2%;
   height: 3%;
   width: 2%;
