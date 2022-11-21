@@ -28,9 +28,32 @@
   height: 3%;
   width: 1%;
   border-radius:50%;
-  right: 14px;
-  opacity: .5;
+  right: 10%;
+  opacity: .1;
   background-image: linear-gradient(to top right, rgb(250, 250, 200),rgb(250, 250, 250));
+}
+
+.sprite2 {
+  position:absolute;
+  bottom:21%;
+  height: 3%;
+  width: 1%;
+  border-radius:50%;
+  right: 15%;
+  opacity: .1;
+  background-image: linear-gradient(to top right, rgb(250, 250, 200),rgb(250, 250, 250));
+}
+
+.sprite3 {
+  position:absolute;
+  bottom:22%;
+  height: 3%;
+  width: 1%;
+  border-radius:50%;
+  right: 20%;
+  opacity: .1;
+  background-image: linear-gradient(to top right, rgb(250, 250, 200),rgb(250, 250, 250));
+  
 }
 
 .bush1 {
