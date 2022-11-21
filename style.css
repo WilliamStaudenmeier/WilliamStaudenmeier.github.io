@@ -1823,7 +1823,7 @@ hr:not(.thunder) {
 .sprite10 {
   position:absolute;
   z-index:89;
-  bottom:7%;
+  bottom:1%;
   right:31%;
   height: 4%;
   width: 2%;
@@ -1835,7 +1835,7 @@ hr:not(.thunder) {
 .sprite10a {
   position:absolute;
   z-index:69;
-  bottom:6%;
+  bottom:1%;
   right:30%;
   height: 4%;
   width: 2%;
@@ -1847,7 +1847,7 @@ hr:not(.thunder) {
 .sprite10b {
   position:absolute;
   z-index:69;
-  bottom:6%;
+  bottom:1%;
   right:29%;
   height: 4%;
   width: 2%;
@@ -1859,7 +1859,7 @@ hr:not(.thunder) {
 .sprite10c {
   position:absolute;
   z-index:69;
-  bottom:5%;
+  bottom:1%;
   right:29%;
   height: 4%;
   width: 2%;
@@ -1871,7 +1871,7 @@ hr:not(.thunder) {
 .sprite11 {
   position:absolute;
   z-index:97;
-  bottom:3%;
+  bottom:1%;
   left:19%;
   height: 4%;
   width: 2%;
@@ -1883,7 +1883,7 @@ hr:not(.thunder) {
 .sprite11a {
   position:absolute;
   z-index:57;
-  bottom:2%;
+  bottom:1%;
   left:20%;
   height: 4%;
   width: 2%;
@@ -1895,7 +1895,7 @@ hr:not(.thunder) {
 .sprite11b {
   position:absolute;
   z-index:57;
-  bottom:3%;
+  bottom:1%;
   left:20%;
   height: 4%;
   width: 2%;
