@@ -1816,6 +1816,6 @@ hr:not(.thunder) {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  z-index:0;
-  position: fixed;
+  z-index:1;
+  position: absolute;
 }
