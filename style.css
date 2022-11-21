@@ -16,8 +16,9 @@
   bottom:0px;
   height: 150%;
   width: 10%;
-  border-radius:10%;
+  border-radius:50%;
   left: 14px;
+  opacity: .5;
   background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
 }
 
