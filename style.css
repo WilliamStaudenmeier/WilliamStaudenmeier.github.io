@@ -1764,8 +1764,8 @@ hr:not(.thunder) {
 .sprite8 {opacity:.5;
   position:absolute;
   z-index:94;
-  top:70%;
-  left:30%;
+  top:80%;
+  left:15%;
   height: 3%;
   width: 2%;
    background-image: radial-gradient(#212121 1%, #fff 31%);
@@ -1780,8 +1780,8 @@ hr:not(.thunder) {
 .sprite9 {opacity:.5;
   position:absolute;
   z-index:94;
-  top:70%;
-  left:30%;
+  top:84%;
+  left:10%;
   height: 3%;
   width: 2%;
    background-image: radial-gradient(#212121 1%, #fff 51%);
