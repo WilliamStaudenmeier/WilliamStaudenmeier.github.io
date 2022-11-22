@@ -1577,7 +1577,7 @@ hr:not(.thunder) {
 
 .wrapper {
   min-height: 100vh;
-  background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 44),rgb(17, 17, 13),rgb(17, 17, 13));
+  background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 44),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));
   display: flex;
   align-items: center;
   justify-content: center;
