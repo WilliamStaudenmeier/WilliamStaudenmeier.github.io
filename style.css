@@ -1745,7 +1745,7 @@ hr:not(.thunder) {
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
-.sprite7 {opacity:.5;
+.sprite7 {opacity:.2;
   position:absolute;
   z-index:94;
   top:80%;
@@ -1761,7 +1761,7 @@ hr:not(.thunder) {
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
-.sprite8 {opacity:.5;
+.sprite8 {opacity:.2;
   position:absolute;
   z-index:94;
   top:80%;
@@ -1777,7 +1777,7 @@ hr:not(.thunder) {
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
-.sprite9 {opacity:.5;
+.sprite9 {opacity:.2;
   position:absolute;
   z-index:94;
   top:84%;
