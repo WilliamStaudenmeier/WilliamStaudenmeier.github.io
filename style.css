@@ -1617,6 +1617,20 @@ hr:not(.thunder) {
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
+.sprite1c {
+  position:absolute;
+  z-index:171;
+  opacity:1;
+  bottom:8%;
+  right:8%;
+  height: 1%;
+  width: 1%;
+  background-color: #000;
+  transform: rotateZ(130deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
+}
+
 
 .sprite2 {
   position:absolute;
