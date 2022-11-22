@@ -1674,9 +1674,9 @@ hr:not(.thunder) {
 .sprite3a {opacity:.5;
   position:absolute;
   z-index:78;
-  top:9%;
+  top:10%;
   left:2%;
-  height: 3%;
+  height: 2%;
   width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
@@ -1747,11 +1747,11 @@ hr:not(.thunder) {
   top:70%;
   left:30%;
   height: 3%;
-  width: 4%;
-   background-image: radial-gradient(#212121 1%, #fff 11%);
+  width: 3%;
+   background-image: radial-gradient(#212121 1%, #fff 31%);
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
-    transform: rotateZ(15deg);
+    transform: rotateZ(45deg);
   -webkit-animation: rotation 4s 2s infinite;
           animation: rotation 4s 2s infinite;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
@@ -1842,7 +1842,7 @@ hr:not(.thunder) {
 .sprite13 {opacity:.8;
   position:absolute;
   z-index:94;
-  top:8%;
+  top:9%;
   left:43%;
   height: 1%;
   width: 1%;
@@ -1854,8 +1854,8 @@ hr:not(.thunder) {
 .sprite14 {opacity:.8;
   position:absolute;
   z-index:94;
-  top:8%;
-  left:44%;
+  top:7%;
+  left:47%;
   height: 1%;
   width: 1%;
    background-image: radial-gradient(#212121 1%, #fff 31%);
@@ -1866,7 +1866,7 @@ hr:not(.thunder) {
 .sprite15 {opacity:.8;
   position:absolute;
   z-index:94;
-  top:7%;
+  top:6%;
   left:44%;
   height: 1%;
   width: 1%;
