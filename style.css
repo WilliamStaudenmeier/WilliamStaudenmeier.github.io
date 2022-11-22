@@ -1596,7 +1596,7 @@ hr:not(.thunder) {
   width: 2%;
   box-shadow: 0px 100px 10px 2px #c9fffe;
   background-color: #fff;
-  border-radius: 50%;
+  border-radius: 50% 50% 50% 50% / 50% 50% 60% 50%;
 }
 
 .sprite1b {opacity:.8;
