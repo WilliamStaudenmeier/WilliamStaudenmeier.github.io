@@ -1571,422 +1571,13 @@ hr:not(.thunder) {
   }
 }
 
-.sprite1 {
-  position:absolute;
-  z-index:99;
-  bottom:6%;
-  right:8%;
-  height: 8%;
-  width: 6%;
-  background-color: #fff;
-  border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
-  transform: rotateZ(130deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite1a {
-  position:absolute;
-  z-index:71;
-  opacity:1;
-  bottom:2%;
-  right:8%;
-  height: 6%;
-  width: 2%;
-  box-shadow: 0px 100px 10px 2px #c9fffe;
-  background-color: #fff;
-  border-radius: 50% 50% 10% 50% / 50% 50% 50% 50%;
-}
-
-.sprite1b {opacity:.8;
-  position:absolute;
-  z-index:94;
-  top:7%;
-  left:78%;
-  height: 1%;
-  width: 1%;
-   background-image: radial-gradient(#212121 1%, #fff 31%);
-  border-radius: 100% 100% 60% 100%;
- 
-    transform: rotateZ(15deg);
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite1c {
-  position:absolute;
-  z-index:171;
-  opacity:1;
-  bottom:8%;
-  right:10%;
-  height: 1%;
-  width: 1%;
-  background-image: radial-gradient(#212121 1%, #fff 56%);
-  border-radius: 100% 100% 60% 100%;
-  transform: rotateZ(130deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-}
-
-.sprite1d {
-  position:absolute;
-  z-index:171;
-  opacity:1;
-  bottom:9%;
-  right:9%;
-  height: 1%;
-  width: 1%;
-  background-image: radial-gradient(#212121 1%, #fff 26%);
-  border-radius: 100% 100% 60% 100%;
-  transform: rotateZ(130deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-}
-
-.sprite1e {
-  position:absolute;
-  z-index:71;
-  opacity:1;
-  bottom:2%;
-  right:9%;
-  height: 7%;
-  width: 2%;
-  box-shadow: 0px 100px 10px 2px #c9fffe;
-  background-color: #fff;
-  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-}
-
-
-.sprite2 {
-  position:absolute;
-  z-index:100;
-  bottom:13%;
-  right:13%;
-  height: 6%;
-  width: 6%;
-  background-color: #fff;
-  border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
-  border: 2px solid #112;
-  transform: rotateZ(15deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite2a {
-  position:absolute;
-  z-index:30;
-  bottom:9%;
-  right:14%;
-  height: 6%;
-  width: 4%;
-  border-radius: 0 0 20px 20px;
-  background-color: #fff;
-  border: 2px solid #112;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
-}
-
-.sprite2b {opacity:.8;
-  position:absolute;
-  z-index:94;
-  top:8%;
-  left:92%;
-  height: 1%;
-  width: 1%;
-   background-image: radial-gradient(#212121 1%, #fff 31%);
-  border-radius: 100% 100% 60% 100%;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite2d {
-  position:absolute;
-  z-index:171;
-  opacity:1;
-  bottom:15%;
-  right:15%;
-  height: 1%;
-  width: 1%;
-  background-image: radial-gradient(#212121 1%, #fff 76%);
-  border-radius: 100% 100% 60% 100%;
-  transform: rotateZ(130deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-}
-
-.sprite2e {
-  position:absolute;
-  z-index:271;
-  opacity:1;
-  bottom:14%;
-  right:16%;
- height: 1%;
-  width: 1%;
-  background-image: radial-gradient(#212121 1%, #fff 36%);
-  border-radius: 100% 100% 60% 100%;
-  transform: rotateZ(130deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-}
-
-.sprite3 {
-  position:absolute;
-  z-index:98;
-  bottom:10%;
-  right:5%;
-  height: 2%;
-  width: 2%;
-  background-image: radial-gradient(#212121 1%, #fff 40%);
-  border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
-  transform: rotateZ(45deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-.sprite3a {opacity:.5;
-  position:absolute;
-  z-index:78;
-  bottom:8%;
-  right:5%;
-  height: 2%;
-  width: 2%;
-  background-color: #fff;
-  border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite4 {
-  position:absolute;
-  z-index:97;
-  top:74%;
-  left:20%;
-  height: 3%;
-  width: 4%;
- background-image: radial-gradient(#212121 1%, #fff 11%);
-  border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
-    transform: rotateZ(15deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite4a {opacity:.5;
-  position:absolute;
-  z-index:77;
-  top:76%;
-  left:20%;
-  height: 3%;
-  width: 2%;
-  background-color: #fff;
-  border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite5 {
-  position:absolute;
-  z-index:96;
-  top:75%;
-  left:24%;
-  height: 3%;
-  width: 4%;
-   background-image: radial-gradient(#212121 1%, #fff 9%);
-  border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
-    transform: rotateZ(15deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite5a {opacity:.5;
-  position:absolute;
-  z-index:76;
-  top:77%;
-  left:24%;
-  height: 3%;
-  width: 2%;
-  background-color: #fff;
-  border-radius: 100% 100% 60% 100%;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite6 {
-  position:absolute;
-  z-index:94;
-  top:70%;
-  left:30%;
-  height: 3%;
-  width: 3%;
-   background-image: radial-gradient(#212121 1%, #fff 31%);
-  border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
-    transform: rotateZ(45deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite6a {opacity:.5;
-  position:absolute;
-  z-index:74;
-  top:72%;
-  left:30%;
-  height: 3%;
-  width: 2%;
-  background-color: #fff;
-  border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
-    transform: rotateZ(15deg);
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite7 {opacity:.9;
-  position:absolute;
-  z-index:94;
-  bottom:91%;
-  right:10%;
-  height: 1%;
-  width: 1%;
-   background-image: radial-gradient(#212121 1%, #fff 31%);
-  border-radius: 100% 100% 60% 100%;
-  
-    transform: rotateZ(15deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite7a {opacity:.9;
-  position:absolute;
-  z-index:94;
-  bottom:90%;
-  left:12%;
-  height: 1%;
-  width: 1%;
-   background-image: radial-gradient(#212121 1%, #fff 31%);
-  border-radius: 100% 100% 60% 100%;
- 
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite8 {opacity:.9;
-  position:absolute;
-  z-index:94;
-  bottom:84%;
-  left:10%;
-  height: 1%;
-  width: 1%;
-   background-image: radial-gradient(#212121 1%, #fff 51%);
-  border-radius: 100% 100% 60% 100%;
-
-    transform: rotateZ(45deg);
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-
-.sprite10 {opacity:.3;
-  position:absolute;
-  z-index:89;
-  bottom:1%;
-  left:35%;
-  height: 1%;
-  width: 1%;
-  background-color: rgb(255, 204, 204);
-  border-radius: 100% 100% 100% 100%;
-  box-shadow: 0 0 50px 50px rgb(255, 204, 204, 0.6);
-}
-
-.sprite10a {opacity:.3;
-  position:absolute;
-  z-index:89;
-  bottom:1%;
-  left:41%;
-  height: 1%;
-  width: 1%;
-  background-color: rgb(255, 204, 204);
-  border-radius: 100% 100% 100% 100%;
-  box-shadow: 0 0 50px 50px rgb(255, 204, 204, 0.6);
-}
-
-.sprite13 {opacity:.8;
-  position:absolute;
-  z-index:94;
-  top:9%;
-  left:43%;
-  height: 1%;
-  width: 1%;
-   background-image: radial-gradient(#212121 1%, #fff 31%);
-  border-radius: 100% 100% 60% 100%;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite14 {opacity:.8;
-  position:absolute;
-  z-index:94;
-  top:7%;
-  left:47%;
-  height: 1%;
-  width: 1%;
-  background-image: radial-gradient(#212121 1%, #fff 31%);
-  border-radius: 100% 100% 60% 100%;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite15 {opacity:.8;
-  position:absolute;
-  z-index:94;
-  top:6%;
-  left:44%;
-  height: 1%;
-  width: 1%;
-   background-image: radial-gradient(#212121 1%, #fff 31%);
-  border-radius: 100% 100% 60% 100%;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-
-.bush1 {
-  position:absolute;
-  bottom:0px;
-  height: 10%;
-  width: 150%;
-  border-radius:40%;
-  left: 3px;
-  opacity: .9;
-  background-image: linear-gradient(to top right, rgb(17, 17, 13),rgb(17, 17, 13));
-  
-}
-
-.fol1 {
-  position:absolute;
-  top:-20%!;
-  height: 30%;
-  width: 70%;
-  border-radius:60%;
-  left: 0px;
-  opacity:.9;
-  background-image: linear-gradient(rgb(17, 17, 13), rgb(17, 17, 13));
-}
 
 
 
-.tree {
-  position:fixed;
-  z-index:1;
-  bottom:0px;
-  height: 150%;
-  width: 2%;
-  left: 0px;
-  opacity: .9;
-  background-image: linear-gradient(to top right, rgb(17, 17, 24),rgb(17, 17, 13));
-}
 
 .wrapper {
   min-height: 100vh;
-  background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 44),rgb(17, 17, 13));
+  background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 44),rgb(17, 17, 13),rgb(17, 17, 13));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1994,3 +1585,856 @@ hr:not(.thunder) {
   z-index:-10000000000;
   position: relative;
 }
+
+.kodama2 {
+  position:absolute; 
+  left:10%;
+  bottom:10%;
+
+  align-items: center;
+}
+
+.kodama2 .head {
+  opacity:.7;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+  transform: rotateZ(15deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
+
+.kodama2 .eye1 {
+
+opacity:.8;
+  position:absolute;
+  z-index:94;
+  top:40%;
+  left:23%;
+  height: 20%;
+  width: 20%;
+  border: 2px solid #112;
+   background-image: radial-gradient(#212121 50%, #fff 31%);
+  border-radius: 100% 100% 60% 100%;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+
+}
+
+.kodama2 .eye2 {
+
+  opacity:.8;
+    position:absolute;
+    z-index:94;
+    top:30%;
+    left:63%;
+    height: 5%;
+    width: 5%;
+    border: 2px solid #112;
+     background-image: radial-gradient(#212121 50%, #fff 31%);
+    border-radius: 100% 100% 60% 100%;
+    box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+  
+  }
+
+  .kodama2 .mouth {
+
+    opacity:.8;
+      position:absolute;
+      z-index:94;
+      top:70%;
+      left:63%;
+      height: 5%;
+      width: 15%;
+      border: 2px solid #112;
+       background-image: radial-gradient(#212121 100%, #fff 100%);
+      border-radius: 50%;
+      box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+    
+    }
+
+
+
+  .kodama2 .body {
+    position:absolute;
+    opacity:.1;
+    z-index:-1;
+    top:50%;
+    right:0%;
+    height: 205%;
+    width: 75%;
+    background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+  }
+
+  .kodama2 .arm1 {
+    position:absolute;
+    opacity:.1;
+    z-index:30;
+    top:70%;
+    right:60%;
+    height: 105%;
+    width: 25%;
+    transform: rotateZ(10deg);
+    background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+  }
+
+  .kodama2 .arm2 {
+    position:absolute;
+    opacity:.1;
+    z-index:30;
+    top:70%;
+    left:80%;
+    height: 105%;
+    width: 25%;
+    transform: rotateZ(-10deg);
+    background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+  }
+
+  .kodama3 {
+    position:absolute; 
+    left:35%;
+    bottom:27%;
+  
+    align-items: center;
+  }
+  
+  .kodama3 .head {
+    opacity:.8;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+    transform: rotateZ(15deg);
+    -webkit-animation: rotation 4s 2s infinite;
+            animation: rotation 4s 2s infinite;
+    box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+  }
+  
+  
+  .kodama3 .eye1 {
+  
+  opacity:.6;
+    position:absolute;
+    z-index:94;
+    top:40%;
+    left:23%;
+    height: 20%;
+    width: 20%;
+    border: 2px solid #112;
+     background-image: radial-gradient(#212121 50%, #fff 31%);
+    border-radius: 100% 100% 60% 100%;
+    box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+  
+  }
+  
+  .kodama3 .eye2 {
+  
+    opacity:.6;
+      position:absolute;
+      z-index:94;
+      top:30%;
+      left:63%;
+      height: 5%;
+      width: 5%;
+      border: 2px solid #112;
+       background-image: radial-gradient(#212121 50%, #fff 31%);
+      border-radius: 100% 100% 60% 100%;
+      box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+    
+    }
+  
+  
+  
+    .kodama3 .body {
+      position:absolute;
+      opacity:.1;
+      z-index:-1;
+      top:50%;
+      right:0%;
+      height: 205%;
+      width: 75%;
+      background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+    }
+  
+    .kodama3 .arm1 {
+      position:absolute;
+      opacity:.2;
+      z-index:30;
+      top:70%;
+      right:60%;
+      height: 105%;
+      width: 25%;
+      transform: rotateZ(10deg);
+      background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+    }
+  
+    .kodama3 .arm2 {
+      position:absolute;
+      opacity:.2;
+      z-index:30;
+      top:70%;
+      left:80%;
+      height: 105%;
+      width: 25%;
+      transform: rotateZ(-10deg);
+      background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+    }
+
+
+    .kodama4 {
+      position:absolute; 
+      left:30%;
+      bottom:22%;
+    
+      align-items: center;
+    }
+    
+    .kodama4 .head {
+      opacity:.8;
+      width: 20px;
+      height: 20px;
+      background-color: #fff;
+      border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+      transform: rotateZ(15deg);
+      -webkit-animation: rotation 4s 2s infinite;
+              animation: rotation 4s 2s infinite;
+      box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+    }
+    
+    
+    .kodama4 .eye1 {
+    
+    opacity:.6;
+      position:absolute;
+      z-index:94;
+      top:40%;
+      left:23%;
+      height: 20%;
+      width: 20%;
+      border: 2px solid #112;
+       background-image: radial-gradient(#212121 50%, #fff 31%);
+      border-radius: 100% 100% 60% 100%;
+      box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+    
+    }
+    
+    .kodama4 .eye2 {
+    
+      opacity:.6;
+        position:absolute;
+        z-index:94;
+        top:30%;
+        left:63%;
+        height: 5%;
+        width: 5%;
+        border: 2px solid #112;
+         background-image: radial-gradient(#212121 50%, #fff 31%);
+        border-radius: 100% 100% 60% 100%;
+        box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+      
+      }
+    
+    
+    
+      .kodama4 .body {
+        position:absolute;
+        opacity:.1;
+        z-index:-1;
+        top:50%;
+        right:0%;
+        height: 205%;
+        width: 75%;
+        background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+      }
+    
+      .kodama4 .arm1 {
+        position:absolute;
+        opacity:.2;
+        z-index:30;
+        top:70%;
+        right:60%;
+        height: 105%;
+        width: 25%;
+        transform: rotateZ(10deg);
+        background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+      }
+    
+      .kodama4 .arm2 {
+        position:absolute;
+        opacity:.2;
+        z-index:30;
+        top:70%;
+        left:80%;
+        height: 105%;
+        width: 25%;
+        transform: rotateZ(-10deg);
+        background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+      }
+
+
+      .kodama5 {
+        position:absolute; 
+        left:40%;
+        bottom:20%;
+      
+        align-items: center;
+      }
+      
+      .kodama5 .head {
+        opacity:.7;
+        width: 15px;
+        height: 15px;
+        background-color: #fff;
+        border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+        transform: rotateZ(15deg);
+        -webkit-animation: rotation 4s 2s infinite;
+                animation: rotation 4s 2s infinite;
+        box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+      }
+      
+      
+      .kodama5 .eye1 {
+      
+      opacity:.8;
+        position:absolute;
+        z-index:94;
+        top:40%;
+        left:23%;
+        height: 20%;
+        width: 20%;
+        border: 2px solid #112;
+         background-image: radial-gradient(#212121 50%, #fff 31%);
+        border-radius: 100% 100% 60% 100%;
+        box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+      
+      }
+      
+      .kodama5 .eye2 {
+      
+        opacity:.8;
+          position:absolute;
+          z-index:94;
+          top:30%;
+          left:63%;
+          height: 5%;
+          width: 5%;
+          border: 2px solid #112;
+           background-image: radial-gradient(#212121 50%, #fff 31%);
+          border-radius: 100% 100% 60% 100%;
+          box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+        
+        }
+      
+        .kodama5 .mouth {
+      
+          opacity:.8;
+            position:absolute;
+            z-index:94;
+            top:70%;
+            left:63%;
+            height: 5%;
+            width: 15%;
+            border: 2px solid #112;
+             background-image: radial-gradient(#212121 100%, #fff 100%);
+            border-radius: 50%;
+            box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+          
+          }
+      
+      
+      
+        .kodama5 .body {
+          position:absolute;
+          opacity:.1;
+          z-index:-1;
+          top:50%;
+          right:0%;
+          height: 205%;
+          width: 75%;
+          background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+          border-radius: 0 0 20px 20px;
+          box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+        }
+      
+        .kodama5 .arm1 {
+          position:absolute;
+          opacity:.1;
+          z-index:30;
+          top:70%;
+          right:60%;
+          height: 105%;
+          width: 25%;
+          transform: rotateZ(10deg);
+          background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+          border-radius: 0 0 20px 20px;
+          box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+        }
+      
+        .kodama5 .arm2 {
+          position:absolute;
+          opacity:.1;
+          z-index:30;
+          top:70%;
+          left:80%;
+          height: 105%;
+          width: 25%;
+          transform: rotateZ(-10deg);
+          background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+          border-radius: 0 0 20px 20px;
+          box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+        }
+      
+        .kodama6 {
+          position:absolute; 
+          right:40%;
+          bottom:20%;
+        
+          align-items: center;
+        }
+        
+        .kodama6 .head {
+          opacity:.5;
+          width: 15px;
+          height: 15px;
+          background-color: #fff;
+          border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+          transform: rotateZ(15deg);
+          -webkit-animation: rotation 4s 2s infinite;
+                  animation: rotation 4s 2s infinite;
+          box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+        }
+        
+        
+        .kodama6 .eye1 {
+        
+        opacity:.8;
+          position:absolute;
+          z-index:94;
+          top:40%;
+          left:23%;
+          height: 20%;
+          width: 20%;
+          border: 2px solid #112;
+           background-image: radial-gradient(#212121 50%, #fff 31%);
+          border-radius: 100% 100% 60% 100%;
+          box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+        
+        }
+        
+        .kodama6 .eye2 {
+        
+          opacity:.8;
+            position:absolute;
+            z-index:94;
+            top:30%;
+            left:63%;
+            height: 5%;
+            width: 5%;
+            border: 2px solid #112;
+             background-image: radial-gradient(#212121 50%, #fff 31%);
+            border-radius: 100% 100% 60% 100%;
+            box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+          
+          }
+        
+          .kodama6 .mouth {
+        
+            opacity:.8;
+              position:absolute;
+              z-index:94;
+              top:70%;
+              left:63%;
+              height: 5%;
+              width: 15%;
+              border: 2px solid #112;
+               background-image: radial-gradient(#212121 100%, #fff 100%);
+              border-radius: 50%;
+              box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+            
+            }
+        
+        
+        
+          .kodama6 .body {
+            position:absolute;
+            opacity:.1;
+            z-index:-1;
+            top:50%;
+            right:0%;
+            height: 205%;
+            width: 75%;
+            background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+          }
+        
+          .kodama6 .arm1 {
+            position:absolute;
+            opacity:.1;
+            z-index:30;
+            top:70%;
+            right:60%;
+            height: 105%;
+            width: 25%;
+            transform: rotateZ(10deg);
+            background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+          }
+        
+          .kodama6 .arm2 {
+            position:absolute;
+            opacity:.1;
+            z-index:30;
+            top:70%;
+            left:80%;
+            height: 105%;
+            width: 25%;
+            transform: rotateZ(-10deg);
+            background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+          }
+
+
+          .kodama7 {
+            position:absolute; 
+            right:30%;
+            bottom:27%;
+          
+            align-items: center;
+          }
+          
+          .kodama7 .head {
+            opacity:.5;
+            width: 15px;
+            height: 15px;
+            background-color: #fff;
+            border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+            transform: rotateZ(15deg);
+            -webkit-animation: rotation 4s 2s infinite;
+                    animation: rotation 4s 2s infinite;
+            box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+          }
+          
+          
+          .kodama7 .eye1 {
+          
+          opacity:.8;
+            position:absolute;
+            z-index:94;
+            top:40%;
+            left:23%;
+            height: 20%;
+            width: 20%;
+            border: 2px solid #112;
+             background-image: radial-gradient(#212121 50%, #fff 31%);
+            border-radius: 100% 100% 60% 100%;
+            box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+          
+          }
+          
+          .kodama7 .eye2 {
+          
+            opacity:.8;
+              position:absolute;
+              z-index:94;
+              top:30%;
+              left:63%;
+              height: 5%;
+              width: 5%;
+              border: 2px solid #112;
+               background-image: radial-gradient(#212121 50%, #fff 31%);
+              border-radius: 100% 100% 60% 100%;
+              box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+            
+            }
+          
+            .kodama7 .mouth {
+          
+              opacity:.8;
+                position:absolute;
+                z-index:94;
+                top:70%;
+                left:63%;
+                height: 5%;
+                width: 15%;
+                border: 2px solid #112;
+                 background-image: radial-gradient(#212121 100%, #fff 100%);
+                border-radius: 50%;
+                box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+              
+              }
+          
+          
+          
+            .kodama7 .body {
+              position:absolute;
+              opacity:.1;
+              z-index:-1;
+              top:50%;
+              right:0%;
+              height: 205%;
+              width: 75%;
+              background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+              border-radius: 0 0 20px 20px;
+              box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+            }
+          
+            .kodama7 .arm1 {
+              position:absolute;
+              opacity:.1;
+              z-index:30;
+              top:70%;
+              right:60%;
+              height: 105%;
+              width: 25%;
+              transform: rotateZ(10deg);
+              background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+              border-radius: 0 0 20px 20px;
+              box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+            }
+          
+            .kodama7 .arm2 {
+              position:absolute;
+              opacity:.1;
+              z-index:30;
+              top:70%;
+              left:80%;
+              height: 105%;
+              width: 25%;
+              transform: rotateZ(-10deg);
+              background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+              border-radius: 0 0 20px 20px;
+              box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+            }
+          
+            .kodama8 {
+              position:absolute; 
+              right:10%;
+              top:7%;
+            
+              align-items: center;
+            }
+            
+            .kodama8 .head {
+              opacity:.5;
+              width: 5px;
+              height: 5px;
+              background-color: #fff;
+              border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+              transform: rotateZ(15deg);
+              -webkit-animation: rotation 4s 2s infinite;
+                      animation: rotation 4s 2s infinite;
+              box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+            }
+            
+            
+            .kodama8 .eye1 {
+            
+            opacity:.8;
+              position:absolute;
+              z-index:94;
+              top:40%;
+              left:23%;
+              height: 20%;
+              width: 20%;
+              border: 2px solid #112;
+               background-image: radial-gradient(#212121 50%, #fff 31%);
+              border-radius: 100% 100% 60% 100%;
+              box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+            
+            }
+            
+            .kodama8 .eye2 {
+            
+              opacity:.8;
+                position:absolute;
+                z-index:94;
+                top:30%;
+                left:63%;
+                height: 5%;
+                width: 5%;
+                border: 2px solid #112;
+                 background-image: radial-gradient(#212121 50%, #fff 31%);
+                border-radius: 100% 100% 60% 100%;
+                box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+              
+              }
+            
+              .kodama8 .mouth {
+            
+                opacity:.8;
+                  position:absolute;
+                  z-index:94;
+                  top:70%;
+                  left:63%;
+                  height: 5%;
+                  width: 15%;
+                  border: 2px solid #112;
+                   background-image: radial-gradient(#212121 100%, #fff 100%);
+                  border-radius: 50%;
+                  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+                
+                }
+            
+            
+            
+              .kodama8 .body {
+                position:absolute;
+                opacity:.1;
+                z-index:-1;
+                top:50%;
+                right:0%;
+                height: 205%;
+                width: 75%;
+                background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+                border-radius: 0 0 20px 20px;
+                box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+              }
+            
+              .kodama8 .arm1 {
+                position:absolute;
+                opacity:.1;
+                z-index:30;
+                top:70%;
+                right:60%;
+                height: 105%;
+                width: 25%;
+                transform: rotateZ(10deg);
+                background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+                border-radius: 0 0 20px 20px;
+                box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+              }
+            
+              .kodama8 .arm2 {
+                position:absolute;
+                opacity:.1;
+                z-index:30;
+                top:70%;
+                left:80%;
+                height: 105%;
+                width: 25%;
+                transform: rotateZ(-10deg);
+                background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+                border-radius: 0 0 20px 20px;
+                box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+              }
+            
+              .kodama9 {
+                position:absolute; 
+                left:10%;
+                top:7%;
+              
+                align-items: center;
+              }
+              
+              .kodama9 .head {
+                opacity:.7;
+                width: 5px;
+                height: 5px;
+                background-color: #fff;
+                border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+                transform: rotateZ(15deg);
+                -webkit-animation: rotation 4s 2s infinite;
+                        animation: rotation 4s 2s infinite;
+                box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+              }
+              .kodama9 .body {
+                position:absolute;
+                opacity:.1;
+                z-index:-1;
+                top:50%;
+                right:0%;
+                height: 205%;
+                width: 75%;
+                background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+                border-radius: 0 0 20px 20px;
+                box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+              }
+
+              .kodama10 {
+                position:absolute; 
+                left:20%;
+                top:7%;
+              
+                align-items: center;
+              }
+              
+              .kodama10 .head {
+                opacity:.7;
+                width: 5px;
+                height: 5px;
+                background-color: #fff;
+                border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+                transform: rotateZ(15deg);
+                -webkit-animation: rotation 4s 2s infinite;
+                        animation: rotation 4s 2s infinite;
+                box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+              }
+
+              .kodama10 .body {
+                position:absolute;
+                opacity:.1;
+                z-index:-1;
+                top:50%;
+                right:0%;
+                height: 205%;
+                width: 75%;
+                background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+                border-radius: 0 0 20px 20px;
+                box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+              }
+
+              .kodama11 {
+                position:absolute; 
+                left:30%;
+                top:5%;
+              
+                align-items: center;
+              }
+              
+              .kodama11 .head {
+                opacity:.7;
+                width: 5px;
+                height: 5px;
+                background-color: #fff;
+                border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+                transform: rotateZ(15deg);
+                -webkit-animation: rotation 4s 2s infinite;
+                        animation: rotation 4s 2s infinite;
+                box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+              }
+
+              .kodama11 .body {
+                position:absolute;
+                opacity:.1;
+                z-index:-1;
+                top:50%;
+                right:0%;
+                height: 205%;
+                width: 75%;
+                background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+                border-radius: 0 0 20px 20px;
+                box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+              }
