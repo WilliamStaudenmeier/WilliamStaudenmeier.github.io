@@ -1771,7 +1771,7 @@ hr:not(.thunder) {
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
-.sprite7 {opacity:.2;
+.sprite7 {opacity:.9;
   position:absolute;
   z-index:94;
   top:80%;
@@ -1787,23 +1787,20 @@ hr:not(.thunder) {
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
-.sprite7a {opacity:.2;
+.sprite7a {opacity:.9;
   position:absolute;
   z-index:94;
   top:80%;
-  left:15%;
+  left:12%;
   height: 1%;
   width: 1%;
    background-image: radial-gradient(#212121 1%, #fff 31%);
   border-radius: 100% 100% 60% 100%;
  
-    transform: rotateZ(15deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
-.sprite8 {opacity:.2;
+.sprite8 {opacity:.9;
   position:absolute;
   z-index:94;
   top:84%;
@@ -1814,13 +1811,11 @@ hr:not(.thunder) {
   border-radius: 100% 100% 60% 100%;
 
     transform: rotateZ(45deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
 
-.sprite10 {opacity:.3;
+.sprite10 {opacity:.1;
   position:absolute;
   z-index:89;
   bottom:5%;
@@ -1832,10 +1827,10 @@ hr:not(.thunder) {
   box-shadow: 0 0 50px 50px rgb(255, 204, 204, 0.6);
 }
 
-.sprite10a {opacity:.3;
+.sprite10a {opacity:.1;
   position:absolute;
   z-index:89;
-  bottom:8%;
+  bottom:7%;
   left:31%;
   height: 1%;
   width: 1%;
