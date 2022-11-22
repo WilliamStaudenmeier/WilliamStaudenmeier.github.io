@@ -1774,7 +1774,7 @@ hr:not(.thunder) {
 .sprite7 {opacity:.9;
   position:absolute;
   z-index:94;
-  top:80%;
+  bottom:91%;
   right:10%;
   height: 1%;
   width: 1%;
@@ -1790,7 +1790,7 @@ hr:not(.thunder) {
 .sprite7a {opacity:.9;
   position:absolute;
   z-index:94;
-  bottom:80%;
+  bottom:90%;
   left:12%;
   height: 1%;
   width: 1%;
@@ -1818,8 +1818,8 @@ hr:not(.thunder) {
 .sprite10 {opacity:.3;
   position:absolute;
   z-index:89;
-  top:5%;
-  left:31%;
+  bottom:5%;
+  left:35%;
   height: 1%;
   width: 1%;
   background-color: rgb(255, 204, 204);
@@ -1830,7 +1830,7 @@ hr:not(.thunder) {
 .sprite10a {opacity:.3;
   position:absolute;
   z-index:89;
-  top:7%;
+  bottom:7%;
   left:31%;
   height: 1%;
   width: 1%;
