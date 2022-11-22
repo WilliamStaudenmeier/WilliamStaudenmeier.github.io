@@ -1576,14 +1576,11 @@ hr:not(.thunder) {
   z-index:99;
   bottom:7%;
   right:8%;
-  height: 3%;
+  height: 4%;
   width: 4%;
-  background-image: radial-gradient(#212121 1%, #fff 2%);
-  border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
-  transform: rotateZ(15deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
+  background-image: radial-gradient(#212121 1%, #fff 31%);
+  border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+  animation: rotate 6s infinite;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
@@ -1858,7 +1855,7 @@ hr:not(.thunder) {
   left:47%;
   height: 1%;
   width: 1%;
-   background-image: radial-gradient(#212121 1%, #fff 31%);
+  background-image: radial-gradient(#212121 1%, #fff 31%);
   border-radius: 100% 100% 60% 100%;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
