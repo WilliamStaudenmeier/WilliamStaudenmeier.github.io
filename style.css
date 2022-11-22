@@ -1574,7 +1574,7 @@ hr:not(.thunder) {
 .sprite1 {
   position:absolute;
   z-index:99;
-  bottom:5%;
+  bottom:6%;
   right:8%;
   height: 3%;
   width: 4%;
@@ -1619,7 +1619,7 @@ hr:not(.thunder) {
 .sprite2 {
   position:absolute;
   z-index:100;
-  bottom:6%;
+  bottom:7%;
   right:1%;
   height: 3%;
   width: 4%;
@@ -1660,7 +1660,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:98;
   bottom:9%;
-  right:2%;
+  right:5%;
   height: 2%;
   width: 2%;
   background-image: radial-gradient(#212121 1%, #fff 40%);
@@ -1675,7 +1675,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:78;
   bottom:8%;
-  right:2%;
+  right:5%;
   height: 2%;
   width: 2%;
   background-color: #fff;
