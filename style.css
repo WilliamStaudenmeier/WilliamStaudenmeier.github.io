@@ -1605,7 +1605,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:94;
   top:7%;
-  left:48%;
+  left:78%;
   height: 1%;
   width: 1%;
    background-image: radial-gradient(#212121 1%, #fff 31%);
@@ -1619,8 +1619,8 @@ hr:not(.thunder) {
 .sprite2 {
   position:absolute;
   z-index:100;
-  bottom:7%;
-  right:1%;
+  bottom:9%;
+  right:14%;
   height: 3%;
   width: 4%;
   background-image: radial-gradient(#212121 1%, #fff 6%);
@@ -1634,8 +1634,8 @@ hr:not(.thunder) {
 .sprite2a {opacity:.5;
   position:absolute;
   z-index:70;
-  bottom:5%;
-  right:1%;
+  bottom:7%;
+  right:14%;
   height: 3%;
   width: 2%;
   background-color: #fff;
@@ -1648,7 +1648,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:94;
   top:8%;
-  left:42%;
+  left:92%;
   height: 1%;
   width: 1%;
    background-image: radial-gradient(#212121 1%, #fff 31%);
