@@ -1601,6 +1601,22 @@ hr:not(.thunder) {
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
+.sprite1b {opacity:.2;
+  position:absolute;
+  z-index:94;
+  top:5%;
+  left:8%;
+  height: 1%;
+  width: 1%;
+   background-image: radial-gradient(#212121 1%, #fff 31%);
+  border-radius: 100% 100% 60% 100%;
+ 
+    transform: rotateZ(15deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
 
 .sprite2 {
   position:absolute;
@@ -1627,6 +1643,22 @@ hr:not(.thunder) {
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
+.sprite2b {opacity:.2;
+  position:absolute;
+  z-index:94;
+  top:2%;
+  left:1%;
+  height: 1%;
+  width: 1%;
+   background-image: radial-gradient(#212121 1%, #fff 31%);
+  border-radius: 100% 100% 60% 100%;
+ 
+    transform: rotateZ(15deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
