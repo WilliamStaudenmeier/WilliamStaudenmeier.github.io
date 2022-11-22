@@ -1576,8 +1576,8 @@ hr:not(.thunder) {
   z-index:99;
   bottom:7%;
   right:8%;
-  height: 7%;
-  width: 5%;
+  height: 8%;
+  width: 6%;
   background-color: #fff;
   border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
   transform: rotateZ(130deg);
