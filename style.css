@@ -1745,6 +1745,54 @@ hr:not(.thunder) {
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
+.sprite7 {opacity:.5;
+  position:absolute;
+  z-index:94;
+  top:80%;
+  left:10%;
+  height: 3%;
+  width: 2%;
+   background-image: radial-gradient(#212121 1%, #fff 31%);
+  border-radius: 100% 100% 60% 100%;
+  border: 2px solid #112;
+    transform: rotateZ(15deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
+.sprite8 {opacity:.5;
+  position:absolute;
+  z-index:94;
+  top:70%;
+  left:30%;
+  height: 3%;
+  width: 2%;
+   background-image: radial-gradient(#212121 1%, #fff 31%);
+  border-radius: 100% 100% 60% 100%;
+  border: 2px solid #112;
+    transform: rotateZ(15deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
+.sprite9 {opacity:.5;
+  position:absolute;
+  z-index:94;
+  top:70%;
+  left:30%;
+  height: 3%;
+  width: 2%;
+   background-image: radial-gradient(#212121 1%, #fff 51%);
+  border-radius: 100% 100% 60% 100%;
+  border: 2px solid #112;
+    transform: rotateZ(15deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
 
 .sprite10 {opacity:.3;
   position:absolute;
@@ -1769,6 +1817,8 @@ hr:not(.thunder) {
   border-radius: 100% 100% 100% 100%;
   box-shadow: 0 0 50px 50px rgb(255, 204, 204, 0.6);
 }
+
+
 
 
 .bush1 {
