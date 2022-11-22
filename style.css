@@ -1775,7 +1775,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:94;
   top:80%;
-  left:10%;
+  right:10%;
   height: 1%;
   width: 1%;
    background-image: radial-gradient(#212121 1%, #fff 31%);
@@ -1791,7 +1791,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:94;
   top:80%;
-  left:12%;
+  right:12%;
   height: 1%;
   width: 1%;
    background-image: radial-gradient(#212121 1%, #fff 31%);
@@ -1804,7 +1804,7 @@ hr:not(.thunder) {
   position:absolute;
   z-index:94;
   top:84%;
-  left:10%;
+  right:10%;
   height: 1%;
   width: 1%;
    background-image: radial-gradient(#212121 1%, #fff 51%);
