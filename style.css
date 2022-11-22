@@ -1815,7 +1815,7 @@ hr:not(.thunder) {
 }
 
 
-.sprite10 {opacity:.1;
+.sprite10 {opacity:.3;
   position:absolute;
   z-index:89;
   bottom:5%;
@@ -1827,7 +1827,7 @@ hr:not(.thunder) {
   box-shadow: 0 0 50px 50px rgb(255, 204, 204, 0.6);
 }
 
-.sprite10a {opacity:.1;
+.sprite10a {opacity:.3;
   position:absolute;
   z-index:89;
   bottom:7%;
