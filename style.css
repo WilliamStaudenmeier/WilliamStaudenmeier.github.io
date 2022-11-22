@@ -1591,9 +1591,9 @@ hr:not(.thunder) {
   position:absolute;
   z-index:71;
   opacity:.5;
-  top:7%;
+  bottom:4%;
   right:8%;
-  bottom: 3%;
+  height: 3%;
   width: 2%;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
