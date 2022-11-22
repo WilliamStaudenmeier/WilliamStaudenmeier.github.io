@@ -1660,29 +1660,30 @@ hr:not(.thunder) {
 .sprite2 {
   position:absolute;
   z-index:100;
-  bottom:10%;
+  bottom:13%;
   right:14%;
-  height: 3%;
-  width: 4%;
-  background-image: radial-gradient(#212121 1%, #fff 6%);
-  border-radius: 100% 100% 60% 100%;
+  height: 5%;
+  width: 5%;
+  background-color: #fff;
+  border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
   border: 2px solid #112;
-  transform: rotateZ(45deg);
+  transform: rotateZ(15deg);
   -webkit-animation: rotation 4s 2s infinite;
           animation: rotation 4s 2s infinite;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
-.sprite2a {opacity:.5;
+
+.sprite2a {
   position:absolute;
-  z-index:70;
-  bottom:7%;
+  z-index:30;
+  bottom:9%;
   right:14%;
-  height: 3%;
-  width: 2%;
+  height: 6%;
+  width: 4%;
+  border-radius: 0 0 20px 20px;
   background-color: #fff;
-  border-radius: 100% 100% 60% 100%;
   border: 2px solid #112;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
 }
 
 .sprite2b {opacity:.8;
@@ -1695,6 +1696,36 @@ hr:not(.thunder) {
    background-image: radial-gradient(#212121 1%, #fff 31%);
   border-radius: 100% 100% 60% 100%;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
+.sprite2d {
+  position:absolute;
+  z-index:171;
+  opacity:1;
+  bottom:15%;
+  right:15%;
+  height: 1%;
+  width: 1%;
+  background-image: radial-gradient(#212121 1%, #fff 76%);
+  border-radius: 100% 100% 60% 100%;
+  transform: rotateZ(130deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
+}
+
+.sprite2e {
+  position:absolute;
+  z-index:271;
+  opacity:1;
+  bottom:14%;
+  right:16%;
+ height: 1%;
+  width: 1%;
+  background-image: radial-gradient(#212121 1%, #fff 36%);
+  border-radius: 100% 100% 60% 100%;
+  transform: rotateZ(130deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
 }
 
 .sprite3 {
