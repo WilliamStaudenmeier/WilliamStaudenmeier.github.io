@@ -1587,15 +1587,15 @@ hr:not(.thunder) {
 .sprite1a {
   position:absolute;
   z-index:71;
-  opacity:.5;
+  opacity:.9;
   bottom:4%;
   right:8%;
   height: 3%;
   width: 2%;
+  border-radius: 33% 33% 0 0;
+  box-shadow: 0px 100px 10px 2px #c9fffe;
   background-color: #fff;
   border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
 .sprite1b {opacity:.8;
