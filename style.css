@@ -1751,10 +1751,26 @@ hr:not(.thunder) {
   top:80%;
   left:10%;
   height: 1%;
-  width: 2%;
+  width: 1%;
    background-image: radial-gradient(#212121 1%, #fff 31%);
   border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
+  
+    transform: rotateZ(15deg);
+  -webkit-animation: rotation 4s 2s infinite;
+          animation: rotation 4s 2s infinite;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+}
+
+.sprite7a {opacity:.2;
+  position:absolute;
+  z-index:94;
+  top:80%;
+  left:15%;
+  height: 1%;
+  width: 1%;
+   background-image: radial-gradient(#212121 1%, #fff 31%);
+  border-radius: 100% 100% 60% 100%;
+ 
     transform: rotateZ(15deg);
   -webkit-animation: rotation 4s 2s infinite;
           animation: rotation 4s 2s infinite;
@@ -1764,29 +1780,13 @@ hr:not(.thunder) {
 .sprite8 {opacity:.2;
   position:absolute;
   z-index:94;
-  top:80%;
-  left:15%;
-  height: 1%;
-  width: 2%;
-   background-image: radial-gradient(#212121 1%, #fff 31%);
-  border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
-    transform: rotateZ(15deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-}
-
-.sprite9 {opacity:.2;
-  position:absolute;
-  z-index:94;
   top:84%;
   left:10%;
   height: 1%;
-  width: 2%;
+  width: 1%;
    background-image: radial-gradient(#212121 1%, #fff 51%);
   border-radius: 100% 100% 60% 100%;
-  border: 2px solid #112;
+
     transform: rotateZ(15deg);
   -webkit-animation: rotation 4s 2s infinite;
           animation: rotation 4s 2s infinite;
