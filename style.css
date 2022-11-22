@@ -1617,14 +1617,12 @@ hr:not(.thunder) {
 .sprite1c {
   position:absolute;
   z-index:171;
-  opacity:.7;
+  opacity:1;
   bottom:8%;
-  right:9%;
+  right:10%;
   height: 1%;
   width: 1%;
-  background-color: #000;
-  background-image: radial-gradient(#000 10%, transparent 11%),
-  radial-gradient(#000 10%, transparent 11%);
+  background-image: radial-gradient(#212121 1%, #fff 56%);
   border-radius: 100% 100% 60% 100%;
   transform: rotateZ(130deg);
   -webkit-animation: rotation 4s 2s infinite;
@@ -1634,14 +1632,12 @@ hr:not(.thunder) {
 .sprite1d {
   position:absolute;
   z-index:171;
-  opacity:.5;
+  opacity:1;
   bottom:9%;
   right:9%;
   height: 1%;
   width: 1%;
-  background-color: #000;
-  background-image: radial-gradient(#000 10%, transparent 11%),
-  radial-gradient(#000 10%, transparent 11%);
+  background-image: radial-gradient(#212121 1%, #fff 26%);
   border-radius: 100% 100% 60% 100%;
   transform: rotateZ(130deg);
   -webkit-animation: rotation 4s 2s infinite;
