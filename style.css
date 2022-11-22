@@ -1620,12 +1620,15 @@ hr:not(.thunder) {
 .sprite1c {
   position:absolute;
   z-index:171;
-  opacity:1;
+  opacity:.7;
   bottom:8%;
-  right:8%;
+  right:7%;
   height: 1%;
   width: 1%;
   background-color: #000;
+  background-image: radial-gradient(#000 10%, transparent 11%),
+  radial-gradient(#000 10%, transparent 11%);
+  border-radius: 100% 100% 60% 100%;
   transform: rotateZ(130deg);
   -webkit-animation: rotation 4s 2s infinite;
           animation: rotation 4s 2s infinite;
