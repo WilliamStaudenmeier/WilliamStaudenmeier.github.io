@@ -47,7 +47,7 @@ function bubble() {
   b.style.filter = 'blur(20px)'
   b.style.transform = Math.random() < .5 ? 'skew('+skew*(-1)+'deg)' : 'skew('+skew+'deg)'
   b.style.borderRadius = '50%'
-  b.style.background = 'white'
+  b.style.background = 'rgb(230, 242, 255)'
   b.style.opacity = '.1'
   b.style.position = 'absolute'
   b.style.top = '0px'
