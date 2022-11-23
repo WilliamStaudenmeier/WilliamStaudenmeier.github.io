@@ -2470,11 +2470,11 @@ opacity:.8;
                 z-index:1
                 opacity:.1;
                 z-index:-1;
-                top:-10%;
-                left:-10%;
+                top:-5%;
+                left:-5%;
                 height: 200px;
                 width: 200px;
-                background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13), rgb(17, 17, 33));
+                background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13), rgb(17, 17, 53));
                 border-radius: 50%;
                 box-shadow: 100%;
               }
