@@ -1,4 +1,4 @@
-# GitHub Pages Meets Studio Ghibli 
+# Studio Ghibli Inspired Animation
 
 Did you know that Princess Mononoke sold more tickets than any other movie in Japanese history?
 
