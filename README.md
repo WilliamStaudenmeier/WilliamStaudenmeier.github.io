@@ -1,11 +1,17 @@
-# GitHub Page: Studio Ghibli Theme 
+# GitHub Pages Meets Studio Ghibli 
 
-GitHub pages doesn't recognize mobile transforms, so image-loading and absolute positioning do not translate well from web to mobile.
+Did you know that Princess Mononoke sold more tickets than any other movie in Japanese history?
+
+I'm a big fan of Hayao Miyazaki and decided to dedicate my GitHub page to one of his films.
+
+This is completely in base HTML, CSS, and JS, so you can run it locally without installing any libraries.
+
+GitHub Pages do not recognize mobile transforms, so image-loading and absolute positioning do not translate well from web to mobile.
 
 The best bet is to create your own animation using flex layout.
 
 The cool thing about GitHub pages is that it is a free way to host an animation.  
 
-Still a work in progress...
+Thanks!
 
 https://williamstaudenmeier.github.io/
