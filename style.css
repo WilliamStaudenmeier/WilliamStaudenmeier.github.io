@@ -2244,8 +2244,8 @@ opacity:.8;
             
             .kodama8 .head {
               opacity:.5;
-              width: 5px;
-              height: 5px;
+              width: 7px;
+              height: 7px;
               background-color: #fff;
               border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
               transform: rotateZ(15deg);
@@ -2287,24 +2287,7 @@ opacity:.8;
               
               }
             
-              .kodama8 .mouth {
-            
-                opacity:.8;
-                  position:absolute;
-                  z-index:94;
-                  top:70%;
-                  left:63%;
-                  height: 5%;
-                  width: 15%;
-                  border: 2px solid #112;
-                   background-image: radial-gradient(#212121 100%, #fff 100%);
-                  border-radius: 50%;
-                  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-                
-                }
-            
-            
-            
+       
               .kodama8 .body {
                 position:absolute;
                 opacity:.1;
