@@ -2471,11 +2471,11 @@ opacity:.8;
          
                 opacity:.4;
                 z-index:1;
-                top:-10%;
-                left:-10%;
+                top:-15%;
+                left:-15%;
                 height: 300px;
                 width: 300px;
-                background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13), rgb(100, 0, 0));
+                background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13), rgb(100, 50, 0));
                 border-radius: 50%;
                 box-shadow: 100%;
               }
