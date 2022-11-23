@@ -2472,10 +2472,10 @@ opacity:.8;
                 opacity:.7;
                 z-index:1;
                 top:-5%;
-                left:-30%;
+                left:-25%;
                 height: 400px;
                 width: 400px;
-                background-image: linear-gradient(rgb(17, 17, 0), rgb(17, 17, 193));
+                background-image: linear-gradient(rgb(17, 17, 0), rgb(17, 17, 33));
                 border-radius: 50%;
                 box-shadow: 100%;
               }
