@@ -2475,7 +2475,7 @@ opacity:.8;
                 left:-5%;
                 height: 200px;
                 width: 200px;
-                background-image: linear-gradient(rgb(17, 17, 0),rgb(17, 17, 0),rgb(17, 17, 20) rgb(17, 17, 143));
+                background-image: linear-gradient(rgb(17, 17, 0),rgb(17, 17, 0),rgb(17, 17, 20), rgb(17, 17, 143));
                 border-radius: 50%;
                 box-shadow: 100%;
               }
