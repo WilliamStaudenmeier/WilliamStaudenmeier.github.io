@@ -2473,9 +2473,9 @@ opacity:.8;
                 z-index:-1;
                 top:-10%;
                 left:-5%;
-                height: 250px;
-                width: 250px;
-                background-image: linear-gradient(rgb(17, 17, 0),rgb(120, 100, 250),rgb(17, 17, 40),rgb(17, 17, 10));
+                height: 220px;
+                width: 220px;
+                background-image: linear-gradient(rgb(120, 100, 250),rgb(17, 17, 0),rgb(17, 17, 40),rgb(17, 17, 10));
                 border-radius: 50%;
                 box-shadow: 100%;
               }
