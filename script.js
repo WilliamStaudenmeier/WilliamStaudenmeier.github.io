@@ -40,7 +40,7 @@ for (let i = 0; i < counter; i++) {
 number = 10
 function bubble() {
   var b = document.createElement('div')
-  var size = (Math.random()*50) + 75
+  var size = (Math.random()*75) + 75
   var skew = Math.random()*50
   b.style.width = size +'px'
   b.style.height = size +'px'
