@@ -2463,18 +2463,19 @@ opacity:.8;
                 box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
               }
 
+            
               .moon
 
               {
                 position:absolute;
-                z-index:1
+         
                 opacity:.1;
                 z-index:-1;
-                top:-5%;
-                left:-5%;
+                top:-10%;
+                left:-10%;
                 height: 300px;
                 width: 300px;
-                background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13), rgb(17, 17, 83));
+                background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13),rgb(20, 0, 0), rgb(80, 0, 0));
                 border-radius: 50%;
                 box-shadow: 100%;
               }
