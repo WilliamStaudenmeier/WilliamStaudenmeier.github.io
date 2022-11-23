@@ -2367,7 +2367,7 @@ opacity:.8;
               }
               .kodama9 {
                 position:absolute; 
-                left:50%;
+                left:65%;
                 top:7%;
               
                 align-items: center;
@@ -2375,8 +2375,8 @@ opacity:.8;
               
               .kodama9 .head {
                 opacity:.7;
-                width: 5px;
-                height: 5px;
+                width: 10px;
+                height: 10px;
                 background-color: #fff;
                 border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
                 transform: rotateZ(15deg);
