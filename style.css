@@ -2458,7 +2458,7 @@ opacity:.8;
                 left:-5%;
                 height: 220px;
                 width: 220px;
-                background-image: linear-gradient(to bottom right,rgb(0, 102, 255),rgb(17, 17, 10),rgb(17, 17, 10));
+                background-image: linear-gradient(to bottom right,rgb(0, 102, 255),rgb(17, 20, 100),rgb(17, 17, 10));
                 border-radius: 50%;
                 box-shadow: 100%;
               }
