@@ -28,7 +28,7 @@ let counter = 3;
 for (let i = 0; i < counter; i++) {
   hrElement = document.createElement("HR");
   if (i == counter - 1) {
-    hrElement.className = "thunder";
+    hrElement.className = "bomb";
   } else {
     hrElement.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
     hrElement.style.animationDuration = 7 + Math.random() * 0.1 + "s";
@@ -38,7 +38,7 @@ for (let i = 0; i < counter; i++) {
 }
 
 number = 10
-function bubble() {
+function smoke() {
   var b = document.createElement('div')
   var size = (Math.random()*75) + 75
   var skew = Math.random()*50
@@ -58,5 +58,5 @@ function bubble() {
 }
 
 setTimeout(function() {
-  for(var i=0;i<number;i++) { bubble() }
+  for(var i=0;i<number;i++) { smoke() }
 },100)
