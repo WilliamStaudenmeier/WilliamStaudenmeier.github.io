@@ -78,6 +78,25 @@ div {
   39% {
     transform: rotateZ(-35deg);
   }
+  
+  
+  85% {
+    transform: rotateZ(10deg);
+  }
+  87% {
+    transform: rotateZ(12deg);
+  }
+  89% {
+    transform: rotateZ(14deg);
+  }
+}
+@keyframes rotation {
+  0%, 40%, 42%, 44%, 46%, 48%, 50%, 52%, 54%, 56%, 58%, 60%, 62%, 64%, 66%, 68%, 70%, 72%, 74%, 76%, 78%, 80%, 82%, 84%, 86%, 88%, 90%, 100% {
+    transform: rotateZ(-95deg);
+  }
+  39% {
+    transform: rotateZ(-35deg);
+  }
   41% {
     transform: rotateZ(-34deg);
   }
@@ -93,18 +112,7 @@ div {
   49% {
     transform: rotateZ(-26deg);
   }
-  51% {
-    transform: rotateZ(-24deg);
-  }
-  53% {
-    transform: rotateZ(-22deg);
-  }
-  55% {
-    transform: rotateZ(-20deg);
-  }
-  57% {
-    transform: rotateZ(-18deg);
-  }
+  
   59% {
     transform: rotateZ(-16deg);
   }
@@ -129,32 +137,103 @@ div {
   73% {
     transform: rotateZ(-2deg);
   }
-  75% {
-    transform: rotateZ(0deg);
-  }
-  77% {
-    transform: rotateZ(2deg);
-  }
-  79% {
-    transform: rotateZ(4deg);
-  }
-  81% {
-    transform: rotateZ(6deg);
-  }
-  83% {
-    transform: rotateZ(8deg);
-  }
-  85% {
-    transform: rotateZ(10deg);
-  }
-  87% {
-    transform: rotateZ(12deg);
-  }
+
   89% {
     transform: rotateZ(14deg);
   }
 }
-@keyframes rotation {
+.kodama .body {
+  background-image: linear-gradient(#7caead,#fff,#7caead, transparent);
+  opacity:.1;
+  height: 70px;
+  width: 40px;
+  border-radius: 0 0 20px 20px;
+ 
+  margin-top: -10px;
+  z-index: 0;
+  
+  position: relative;
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
+}
+.kodama .body:after, .kodama .body:before {
+  #opacity:.8;
+  content: "";
+  height: 80%;
+  width: 15px;
+  background-image: linear-gradient(#7caead,#fff,#7caead);
+  position: absolute;
+  box-shadow: 0 0 5px 10px rgb(0, 51, 34,.5);
+  #border: 2px solid #112;
+}
+.kodama .body:after {
+  left: 85%;
+  border-radius: 100% 100% 20px 20px;
+  transform: rotateZ(-10deg);
+}
+.kodama .body:before {
+  right: 85%;
+  border-radius: 100% 100% 20px 20px;
+  transform: rotateZ(10deg);
+}
+.kodama .body .legs {
+  opacity:.8;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.kodama .body .legs:after, .kodama .body .legs:before {
+  box-shadow: 0 0 5px 10px rgb(0, 51, 34,.5);
+  content: "";
+  height: 50px;
+  width: 18px;
+  background-image: linear-gradient(transparent,#7caead,#fff,#7caead, transparent);
+  position: absolute;
+  #border: 2px solid #112;
+}
+.kodama .body .legs:after {
+  left: 90%;
+  border-radius: 20px 20px 100% 100%;
+  transform: rotateZ(1deg);
+}
+.kodama .body .legs:before {
+  right: 90%;
+  border-radius: 20px 20px 100% 100%;
+  transform: rotateZ(-1deg);
+}
+
+.dialog {
+  margin-top: 30px;
+  color: rgb(238, 230, 255);
+  font-family: Arial;
+  font-size: 1.2em;
+}
+
+.intro {
+  margin-top: 2px;
+  color:rgb(238, 230, 255);
+  font-family: Arial;
+  font-size: 1.2em;
+}
+
+hr:not(.bomb) {
+  width: 50px;
+  border-color: transparent;
+  #border-style: solid;
+  border-right-color: rgb(0, 255, 204);
+  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
+  border-right-width: 100px;
+  opacity: .3;
+  position: absolute;
+  bottom: 100%;
+  transform-origin: 100% 50%;
+  animation-name: rain;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 10;
+}
+
+@-webkit-keyframes rotation2 {
   0%, 40%, 42%, 44%, 46%, 48%, 50%, 52%, 54%, 56%, 58%, 60%, 62%, 64%, 66%, 68%, 70%, 72%, 74%, 76%, 78%, 80%, 82%, 84%, 86%, 88%, 90%, 100% {
     transform: rotateZ(15deg);
   }
@@ -237,92 +316,88 @@ div {
     transform: rotateZ(14deg);
   }
 }
-.kodama .body {
-  background-image: linear-gradient(#7caead,#fff,#7caead);
-  opacity:.2;
-  height: 60px;
-  width: 40px;
-  border-radius: 0 0 20px 20px;
- 
-  margin-top: -10px;
-  z-index: 0;
-  
-  position: relative;
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
-}
-.kodama .body:after, .kodama .body:before {
-  content: "";
-  height: 80%;
-  width: 15px;
-  background-color: #fff;
-  position: absolute;
-  #border: 2px solid #112;
-}
-.kodama .body:after {
-  left: 85%;
-  border-radius: 100% 100% 20px 20px;
-  transform: rotateZ(-10deg);
-}
-.kodama .body:before {
-  right: 85%;
-  border-radius: 100% 100% 20px 20px;
-  transform: rotateZ(10deg);
-}
-.kodama .body .legs {
-  
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.kodama .body .legs:after, .kodama .body .legs:before {
-  content: "";
-  height: 30px;
-  width: 18px;
-  background-color: #fff;
-  position: absolute;
-  #border: 2px solid #112;
-}
-.kodama .body .legs:after {
-  left: 90%;
-  border-radius: 20px 20px 100% 100%;
-  transform: rotateZ(10deg);
-}
-.kodama .body .legs:before {
-  right: 90%;
-  border-radius: 20px 20px 100% 100%;
-  transform: rotateZ(-10deg);
-}
-
-.dialog {
-  margin-top: 30px;
-  color: rgb(238, 230, 255);
-  font-family: Arial;
-  font-size: 1.2em;
-}
-
-.intro {
-  margin-top: 2px;
-  color: #FFF;
-  font-family: Arial;
-  font-size: 1.2em;
-}
-
-hr:not(.thunder) {
-  width: 50px;
-  border-color: transparent;
-  #border-style: solid;
-  border-right-color: rgb(0, 255, 204);
-  box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
-  border-right-width: 100px;
-  opacity: .3;
-  position: absolute;
-  bottom: 100%;
-  transform-origin: 100% 50%;
-  animation-name: rain;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: 10;
+@keyframes rotation2 {
+  0%, 40%, 42%, 44%, 46%, 48%, 50%, 52%, 54%, 56%, 58%, 60%, 62%, 64%, 66%, 68%, 70%, 72%, 74%, 76%, 78%, 80%, 82%, 84%, 86%, 88%, 90%, 100% {
+    transform: rotateZ(15deg);
+  }
+  39% {
+    transform: rotateZ(-35deg);
+  }
+  41% {
+    transform: rotateZ(-34deg);
+  }
+  43% {
+    transform: rotateZ(-32deg);
+  }
+  45% {
+    transform: rotateZ(-30deg);
+  }
+  47% {
+    transform: rotateZ(-28deg);
+  }
+  49% {
+    transform: rotateZ(-26deg);
+  }
+  51% {
+    transform: rotateZ(-24deg);
+  }
+  53% {
+    transform: rotateZ(-22deg);
+  }
+  55% {
+    transform: rotateZ(-20deg);
+  }
+  57% {
+    transform: rotateZ(-18deg);
+  }
+  59% {
+    transform: rotateZ(-16deg);
+  }
+  61% {
+    transform: rotateZ(-14deg);
+  }
+  63% {
+    transform: rotateZ(-12deg);
+  }
+  65% {
+    transform: rotateZ(-10deg);
+  }
+  67% {
+    transform: rotateZ(-8deg);
+  }
+  69% {
+    transform: rotateZ(-6deg);
+  }
+  71% {
+    transform: rotateZ(-4deg);
+  }
+  73% {
+    transform: rotateZ(-2deg);
+  }
+  75% {
+    transform: rotateZ(0deg);
+  }
+  77% {
+    transform: rotateZ(2deg);
+  }
+  79% {
+    transform: rotateZ(4deg);
+  }
+  81% {
+    transform: rotateZ(6deg);
+  }
+  83% {
+    transform: rotateZ(8deg);
+  }
+  85% {
+    transform: rotateZ(10deg);
+  }
+  87% {
+    transform: rotateZ(12deg);
+  }
+  89% {
+    transform: rotateZ(14deg);
+  }
 }
 
 @keyframes rain {
@@ -1606,8 +1681,8 @@ hr:not(.thunder) {
   background-color: #fff;
   border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
   transform: rotateZ(15deg);
-  -webkit-animation: rotation 4s 2s infinite;
-          animation: rotation 4s 2s infinite;
+  -webkit-animation: rotation2 4s 2s infinite;
+          animation: rotation2 4s 2s infinite;
   box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
 }
 
@@ -1670,7 +1745,7 @@ opacity:.8;
     right:0%;
     height: 205%;
     width: 75%;
-    background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+    background-image: linear-gradient(transparent,transparent,transparent,rgb(17, 17, 3),transparent);
     border-radius: 0 0 20px 20px;
     box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
   }
@@ -1680,11 +1755,11 @@ opacity:.8;
     opacity:.1;
     z-index:30;
     top:70%;
-    right:60%;
+    right:70%;
     height: 105%;
     width: 25%;
     transform: rotateZ(10deg);
-    background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+    background-image: linear-gradient(transparent,transparent,transparent,rgb(17, 17, 3),transparent);
     border-radius: 0 0 20px 20px;
     box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
   }
@@ -1694,11 +1769,11 @@ opacity:.8;
     opacity:.1;
     z-index:30;
     top:70%;
-    left:80%;
+    left:90%;
     height: 105%;
     width: 25%;
     transform: rotateZ(-10deg);
-    background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+    background-image: linear-gradient(transparent,transparent,transparent,rgb(17, 17, 3),transparent);
     border-radius: 0 0 20px 20px;
     box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
   }
@@ -1718,8 +1793,8 @@ opacity:.8;
     background-color: #fff;
     border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
     transform: rotateZ(15deg);
-    -webkit-animation: rotation 4s 2s infinite;
-            animation: rotation 4s 2s infinite;
+    -webkit-animation: rotation 5s 5s infinite;
+            animation: rotation 5s 5s infinite;
     box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
   }
   
@@ -1766,39 +1841,38 @@ opacity:.8;
       right:0%;
       height: 205%;
       width: 75%;
-      background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+      background-image: linear-gradient(transparent,transparent,transparent,rgb(17, 17, 3),transparent);
       border-radius: 0 0 20px 20px;
       box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
     }
   
     .kodama3 .arm1 {
       position:absolute;
-      opacity:.2;
+      opacity:.1;
       z-index:30;
       top:70%;
-      right:60%;
+      right:70%;
       height: 105%;
       width: 25%;
       transform: rotateZ(10deg);
-      background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+      background-image: linear-gradient(transparent,transparent,transparent,rgb(17, 17, 3),transparent);
       border-radius: 0 0 20px 20px;
       box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
     }
   
     .kodama3 .arm2 {
       position:absolute;
-      opacity:.2;
+      opacity:.1;
       z-index:30;
       top:70%;
-      left:80%;
+      left:90%;
       height: 105%;
       width: 25%;
       transform: rotateZ(-10deg);
-      background-image: linear-gradient(rgb(250,250,250),rgb(17, 17, 13));
+      background-image: linear-gradient(transparent,transparent,transparent,rgb(17, 17, 3),transparent);
       border-radius: 0 0 20px 20px;
       box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.4);
     }
-
 
     .kodama4 {
       position:absolute; 
@@ -1815,8 +1889,8 @@ opacity:.8;
       background-color: #fff;
       border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
       transform: rotateZ(15deg);
-      -webkit-animation: rotation 4s 2s infinite;
-              animation: rotation 4s 2s infinite;
+      -webkit-animation: rotation2 4s 2s infinite;
+              animation: rotation2 4s 2s infinite;
       box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
     }
     
@@ -1912,8 +1986,8 @@ opacity:.8;
         background-color: #fff;
         border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
         transform: rotateZ(15deg);
-        -webkit-animation: rotation 4s 2s infinite;
-                animation: rotation 4s 2s infinite;
+        -webkit-animation: rotation2 4s 2s infinite;
+                animation: rotation2 4s 2s infinite;
         box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
       }
       
@@ -2024,8 +2098,8 @@ opacity:.8;
           background-color: #fff;
           border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
           transform: rotateZ(15deg);
-          -webkit-animation: rotation 4s 2s infinite;
-                  animation: rotation 4s 2s infinite;
+          -webkit-animation: rotation2 4s 2s infinite;
+                  animation: rotation2 4s 2s infinite;
           box-shadow: 0 0 65px 10px rgba(250, 250, 250, 0.6);
         }
         
