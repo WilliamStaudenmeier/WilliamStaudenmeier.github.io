@@ -2452,13 +2452,13 @@ opacity:.8;
               {
                 position:absolute;
          
-                opacity:.7;
+                opacity:.5;
                 z-index:-1;
                 top:-10%;
                 left:-5%;
                 height: 220px;
                 width: 220px;
-                background-image: linear-gradient(to bottom right,rgb(17, 240, 240),rgb(17, 17, 10));
+                background-image: linear-gradient(to bottom right,rgb(0, 102, 255),rgb(17, 17, 10));
                 border-radius: 50%;
                 box-shadow: 100%;
               }
