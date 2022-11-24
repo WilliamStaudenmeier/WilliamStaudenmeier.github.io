@@ -60,3 +60,4 @@ function smoke() {
 setTimeout(function() {
   for(var i=0;i<number;i++) { smoke() }
 },100)
+
