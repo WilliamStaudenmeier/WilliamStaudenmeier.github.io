@@ -1667,7 +1667,7 @@ hr:not(.bomb) {
   z-index:-10000000000;
   position: relative;
   -webkit-animation:colors 5s infinite;
-  -webkit-animation-duration: 10s; 
+  -webkit-animation-duration: 20s; 
 }
 
 @-webkit-keyframes colors {  
