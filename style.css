@@ -1680,10 +1680,11 @@ hr:not(.bomb) {
   60% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 19),rgb(17, 17, 56),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
   70% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 19),rgb(17, 17, 59),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
   74% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 19),rgb(17, 17, 65),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
-  78% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 19),rgb(17, 17, 59),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
-  81% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 23),rgb(17, 17, 64),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
+  78% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 19),rgb(17, 17, 63),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
+  81% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 23),rgb(17, 17, 62),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
   85% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 20),rgb(17, 17, 60),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
-  90% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 18),rgb(17, 17, 58),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
+  90% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 19),rgb(17, 17, 58),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
+  95% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 18),rgb(17, 17, 55),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
    
 }
 
