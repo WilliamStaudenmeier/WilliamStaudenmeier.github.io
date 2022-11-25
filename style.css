@@ -1659,7 +1659,7 @@ hr:not(.bomb) {
 
 .wrapper {
   min-height: 100vh;
-  background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 54),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));
+  background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 44),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1667,24 +1667,19 @@ hr:not(.bomb) {
   z-index:-10000000000;
   position: relative;
   -webkit-animation:colors 5s infinite;
-  -webkit-animation-duration: 15s; 
+  -webkit-animation-duration: 20s; 
 }
 
 @-webkit-keyframes colors {  
-  0% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 54),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));}
-  5% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 14),rgb(17, 17, 54),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));}
-  15% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 15),rgb(17, 17, 54),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));}
-  35% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 16),rgb(17, 17, 54),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));}
+  0% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 44),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));}
+  5% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 39),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));}
+  15% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 32),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));}
+  35% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 24),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));}
   
-  50% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 19),rgb(17, 17, 54),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
-  60% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 19),rgb(17, 17, 56),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
-  70% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 19),rgb(17, 17, 59),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
-  74% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 19),rgb(17, 17, 65),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
-  78% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 19),rgb(17, 17, 63),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
-  81% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 23),rgb(17, 17, 64),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
-  85% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 23),rgb(17, 17, 66),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
-  90% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 23),rgb(17, 17, 68),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
-  95% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 21),rgb(17, 17, 60),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13)); }
+  50% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 14),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));}
+  60% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 24),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));}
+  70% { background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 34),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));}
+
    
 }
 
