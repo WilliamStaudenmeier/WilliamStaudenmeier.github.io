@@ -230,7 +230,7 @@ hr:not(.bomb) {
   bottom: 100%;
   transform-origin: 100% 50%;
   animation-name: rain;
-  animation-duration: 1s;
+  animation-duration: 8s;
   animation-timing-function: linear;
   animation-iteration-count: 10;
 }
