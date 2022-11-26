@@ -1667,7 +1667,7 @@ hr:not(.bomb) {
   z-index:-10000000000;
   position: relative;
   -webkit-animation:colors 5s infinite;
-  -webkit-animation-duration: 30s; 
+  -webkit-animation-duration: 20s; 
 }
 
 @-webkit-keyframes colors {  
@@ -2543,7 +2543,7 @@ opacity:.8;
               {
                 position:absolute;
          
-                opacity:.5;
+                opacity:.3;
                 z-index:-1;
                 top:-10%;
                 left:-5%;
@@ -2552,4 +2552,16 @@ opacity:.8;
                 background-image: linear-gradient(to bottom right,rgb(200, 255, 255),rgb(200, 255, 255),rgb(17, 0, 0));
                 border-radius: 50%;
                 box-shadow: 0 0 5px 10px rgb(0, 51, 34,.2);
-              }
+                  -webkit-animation:moonshadow 5s infinite;
+                  -webkit-animation-duration: 20s; 
+                 }
+
+@-webkit-keyframes moonshadow {  
+  
+  5% { opacity:.4;}
+  25% { opacity:.5;}
+  50% { opacity:.6;}
+  
+  90% { opacity:.5;}
+    
+}
