@@ -2573,7 +2573,6 @@ opacity:.8;
 
 .wrapper2 {
   min-height: 10vh;
-  opacity:.2;
   background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 42),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));
   display: flex;
   align-items: center;
@@ -2586,8 +2585,8 @@ opacity:.8;
 }
 
 @-webkit-keyframes colors2 {  
-  
-  25% { opacity:.1;}
+  0% { opacity:.1;}
+  10% { opacity:.1;}
   100% { background-image:transparent;}
   
 }
