@@ -404,16 +404,16 @@ hr:not(.bomb) {
 
 @keyframes rain {
   from {
-    transform: rotate(195deg) translateX(0);
+    transform: rotate(130deg) translateX(0);
     
   }
   
   to {
-    transform: rotate(1800deg) translateX(calc(100vh + 20px));
+    transform: rotate(130deg) translateX(calc(100vh + 20px));
     border-right-color: transparent;
   }
    to {
-    transform: rotate(180deg) translateX(calc(100vh + 20px));
+    transform: rotate(140deg) translateX(calc(100vh + 20px));
      border-right-color: transparent;
   }
 }
@@ -2573,7 +2573,7 @@ opacity:.8;
 
 .wrapper2 {
   min-height: 10vh;
-  background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 42),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));
+  background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));
   display: flex;
   align-items: center;
   justify-content: center;
