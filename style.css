@@ -2569,3 +2569,24 @@ opacity:.8;
   90% { opacity:.5;}
     
 }
+
+
+.wrapper2 {
+  min-height: 10vh;
+  background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 42),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index:-10000000000;
+  position: relative;
+  -webkit-animation:colors2 1s 1;
+  -webkit-animation-duration: 3s; 
+}
+
+@-webkit-keyframes colors2 {  
+  
+  5% { opacity:.2;}
+  100% { background-image:transparent;}
+  
+}
