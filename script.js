@@ -4,7 +4,7 @@ function toggleText(element, texts, delay) {
   const work = () => {
     element.innerHTML = texts[i].text;
 
-    setTimeout(work, (texts[i].delay * 1000))
+    setTimeout(work, (texts[i].delay * 3000))
 
     i = (i < texts.length - 1) ? i + 1 : 0;
   }
