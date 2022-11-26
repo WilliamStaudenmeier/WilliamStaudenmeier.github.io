@@ -12,4 +12,4 @@ Inspired by Hayao Miyazaki and a concept by Andrés Nicolás Tonello.
 
 Thanks!
 
-https://williamstaudenmeier.github.io/
+You can check out my CodePen version here: https://codepen.io/WilliamStaudenmeier/pen/xxzjgwd
