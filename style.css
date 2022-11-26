@@ -33,8 +33,8 @@ div {
 .kodama .head {
   opacity:.8;
   margin-top:14px;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 117px;
   background-image: linear-gradient(#7caead,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#7caead);
   border-radius: 50% 50% 40% 70% / 50% 50% 60% 50%;
   border: 2px solid #112;
@@ -405,12 +405,16 @@ hr:not(.bomb) {
 @keyframes rain {
   from {
     transform: rotate(95deg) translateX(0);
+    
   }
+  
   to {
     transform: rotate(50deg) translateX(calc(100vh + 20px));
+    border-right-color: transparent;
   }
    to {
     transform: rotate(95deg) translateX(calc(100vh + 20px));
+     border-right-color: transparent;
   }
 }
 
