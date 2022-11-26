@@ -2573,6 +2573,7 @@ opacity:.8;
 
 .wrapper2 {
   min-height: 10vh;
+  opacity:.2;
   background-image: linear-gradient(rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 42),rgb(17, 17, 13),rgb(17, 17, 13),rgb(17, 17, 13));
   display: flex;
   align-items: center;
@@ -2580,8 +2581,8 @@ opacity:.8;
   flex-direction: column;
   z-index:-10000000000;
   position: relative;
-  -webkit-animation:colors2 1s 1;
-  -webkit-animation-duration: 7s; 
+  -webkit-animation:colors2 0s 1;
+  -webkit-animation-duration: 10s; 
 }
 
 @-webkit-keyframes colors2 {  
