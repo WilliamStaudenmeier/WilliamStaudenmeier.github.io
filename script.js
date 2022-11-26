@@ -37,7 +37,7 @@ for (let i = 0; i < counter; i++) {
   document.body.appendChild(hrElement);
 }
 
-number = 5
+number = 3
 function smoke() {
   var b = document.createElement('div')
   var size = (Math.random()*75) + 75
