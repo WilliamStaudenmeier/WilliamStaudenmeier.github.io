@@ -2586,7 +2586,7 @@ opacity:.8;
 
 @-webkit-keyframes colors2 {  
   
-  5% { opacity:.1;}
+  25% { opacity:.1;}
   100% { background-image:transparent;}
   
 }
