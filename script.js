@@ -14,11 +14,11 @@ function toggleText(element, texts, delay) {
 
 toggleText(document.querySelector(".js-dialog"), [
   {
-    text: 'Welcome to...',
+    text: '...',
     delay: 1.6
   },
   {
-    text: '...my portfolio.',
+    text: 'Welcome to my portfolio.',
     delay: 2.4
   }
 ], 2);
