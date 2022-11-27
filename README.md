@@ -12,4 +12,4 @@ Inspired by Hayao Miyazaki and a concept by Andrés Nicolás Tonello.
 
 Thanks!
 
-You can check out my CodePen version here: https://codepen.io/WilliamStaudenmeier/pen/xxzjgwd
+I built a slightly more artistic version on CodePen if you are into Pens: [Kodama and Family](https://codepen.io/WilliamStaudenmeier/pen/xxzjgwd)
